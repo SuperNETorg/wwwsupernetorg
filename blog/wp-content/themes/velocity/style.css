@@ -1,0 +1,34 @@
+/* Wordpress Form */
+.comments-area {
+
+}
+.comments-area .form-allowed-tags {
+	display: none;
+}
+.comments-area .comment-respond .comment-reply-title {
+
+}
+.comments-area .comment-respond .form-group {
+	padding: 0;
+}
+.comments-area .comment-respond .comment-form-author {
+
+}
+.comments-area .comment-respond .comment-form-email {
+	padding-left: 15px;
+}
+.comments-area .comment-respond .form-submit {
+	padding: 0;
+}
+/* Wordpress Comments */
+
+.comment-list .children {
+	border-left: 1px solid #efefef;
+}
+.comment-list .comment {
+	margin-top: 15px;
+}
+.comment-body .comment-metadata {
+	color: #999999;
+	font-size: 13px;
+}
