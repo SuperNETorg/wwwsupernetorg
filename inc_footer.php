@@ -25,7 +25,7 @@
                         <div class="footer-col-inner">
                             <h3 class="title">Support</h3>
                             <ul class="list-unstyled">
-                                <li><a href="https://forum.supernet.org"><i class="fa fa-caret-right"></i>Forum</a></li>
+                                <li><a href="http://forum.supernet.org"><i class="fa fa-caret-right"></i>Forum</a></li>
                                 <li><a href="http://wiki.supernet.org"><i class="fa fa-caret-right"></i>Wiki</a></li>
                                 <li><a href="https://slackinvite.supernet.org" target="_blank"><i class="fa fa-caret-right"></i>Join Slack</a></li>
                                 <li><a href="http://api.supernet.org"><i class="fa fa-caret-right"></i>API</a></li>
