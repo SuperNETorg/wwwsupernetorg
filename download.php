@@ -22,7 +22,7 @@
                         <h2 class="title text-center ">Get connected anytime, anywhere</h2>
                         <p class="intro text-center ">Download the SuperNET beta client</p>
                         <ul class="list-inline" style="display: inline-block; text-align: center; width: 100%;">
-                          <li><a class="btn btn-ghost" href="https://nxtforum.org/index.php?topic=9940.msg193037#msg193037" onmouseover="tooltip.pop(this, 'This software is in development, and should not be trusted with a majority of your funds')"><span class="text">Download SuperNET Lite v.2.0.6</span> </a></li>
+                          <li><a class="btn btn-ghost" href="https://nxtforum.org/lite-multigateway-releases/supernet-lite-v2-0-7-beta/" onmouseover="tooltip.pop(this, 'This software is in development, and should not be trusted with a majority of your funds')"><span class="text">Download SuperNET Lite v.2.0.7</span> </a></li>
                         </ul>
                     </div><!--//download-area-->
                     </div><!--//content-area-->    
