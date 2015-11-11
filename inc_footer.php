@@ -102,7 +102,8 @@
         </div><!--//footer-content-->
         <div class="bottom-bar">
             <div class="container">
-                <small class="copyright">Copyright @ 2015 SuperNET</small>                
+                <small class="copyright">Copyright @ 2015 SuperNET</small>
+             	<small>- <a href="https://github.com/SuperNETorg/wwwsupernetorg/" target=“_blank”><i class="copyright"></i>This site on Github.com</a></small>               
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->        
