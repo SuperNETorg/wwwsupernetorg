@@ -1,5 +1,5 @@
 <?php
-    include("./inc_header.php"); 
+    include("./inc_header.php");
 
     header1(
         $body_class = "home-page",
@@ -18,16 +18,16 @@
                 <li class="slide slide-3"></li>
             </ul>
         </div>
-    </div><!--//bg-slider-wrapper-->        
-    
+    </div><!--//bg-slider-wrapper-->
+
     <section class="promo section section-on-bg">
-        <div class="container text-center">                
+        <div class="container text-center">
             <h2 class="title">SuperNET<br />Cryptocurrencies United</h2>
             <p class="intro">SuperNET is an association of the most reliable blockchain technologies<br />Giving you access to all their innovation from one place</p>
-            <p><a class="btn btn-cta btn-cta-primary" href="download.php"><span class="fa fa-arrow-down"></span>Download SuperNET</a></p>   
+            <p><a class="btn btn-cta btn-cta-primary" href="download.php"><span class="fa fa-arrow-down"></span>Download SuperNET</a></p>
 
             <p>&nbsp;</p>
-            
+
             <ul class="list-inline" style="display: inline-block; text-align: center; width: 100%;">
             <li><a class="btn btn-ghost swal swal-slack" href="http://slackinvite.supernet.org/" onmouseover="tooltip.pop(this, 'Join our slack community')">
                   <span class="fa fa-slack"></span>Community</a></li>
@@ -37,9 +37,9 @@
 
         </div><!--//container-->
     </section><!--//promo-->
-    
-    <div class="sections-wrapper">   
-    
+
+    <div class="sections-wrapper">
+
         <!-- ******Why Section****** -->
         <section id="why" class="section why">
             <div class="container">
@@ -101,17 +101,17 @@
                         <img class="img-responsive" src="assets/images/figures/figure-2.png" alt="SuperNET macbook" />
                     </figure>
                 </div><!--//item-->
-                
-                
-                
-                
+
+
+
+
                 <div class="feature-lead text-center">
                     <h4 class="title">Want to discover all the features?</h4>
                     <p><a class="btn btn-cta btn-cta-secondary" href="features.php">Take a Tour</a></p>
                 </div>
             </div><!--//container-->
-        </section><!--//why-->  
-        
+        </section><!--//why-->
+
         <!-- ******Latest blog posts Section****** -->
         <section class="section testimonials">
             <div class="container">
@@ -123,7 +123,7 @@
                         <li data-target="#testimonials-carousel" data-slide-to="2" class=""></li>
                     </ol><!--//carousel-indicators-->
                     <div id="feeds" class="carousel-inner">
-                        
+
                         <!--//
                         <div class="item">
                             <figure class="profile"><img src="assets/images/people/profile-m-1.png" alt=""></figure>
@@ -133,18 +133,18 @@
                                 <p>We used Velocity as a front-end design template for our product site. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit tortor, consectetur vitae varius at, interdum eget libero. Morbi.</p>
                                 </blockquote>
                                 <p class="source">Kevin Knight<br><span class="title">Co-Founder, Startup Hub</span></p>
-                            </div><!--//content--                    
+                            </div><!--//content--
                         </div><!--//item-->
-                        
-                        
+
+
                     </div><!--//carousel-inner-->
-                    
+
                 </div><!--//carousel-->
             </div><!--//container-->
         </section>
         <!--//latest blog posts-->
-        
-        
+
+
         <!-- ******Press Section****** -->
         <section class="section press">
             <div class="container text-center">
@@ -152,11 +152,12 @@
                 <ul class="press-list list-inline row last">
                     <li class="col-md-2 col-sm-2 col-xs-4"><a href="http://www.forbes.com/sites/rogeraitken/2015/07/05/greek-economic-crisis-is-a-parallel-currency-the-answer/"><img class="img-responsive" src="assets/images/press/press-7.png" alt=""></a></li>
                     <li class="col-md-2 col-sm-2 col-xs-4"><a href="http://cointelegraph.com/search?query=SuperNET"><img class="img-responsive" src="assets/images/press/press-13.png" alt=""></a></li>
+                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="https://www.btcor.co/"><img class="img-responsive" src="assets/images/press/press-14.png" alt=""></a></li>
                 </ul><!--//press-list-->
             </div><!--//container-->
         </section>
-        
-        
+
+
         <!-- ******CTA Section****** -->
         <section id="cta-section" class="section cta-section text-center home-cta-section">
             <div class="container">
@@ -164,7 +165,7 @@
                <p><a class="btn btn-cta btn-cta-primary" href="download.php">Get SuperNET Now</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->
-        
+
     </div><!--//section-wrapper-->
 
 <?php
