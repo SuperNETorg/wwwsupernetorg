@@ -123,20 +123,6 @@
                         <li data-target="#testimonials-carousel" data-slide-to="2" class=""></li>
                     </ol><!--//carousel-indicators-->
                     <div id="feeds" class="carousel-inner">
-
-                        <!--//
-                        <div class="item">
-                            <figure class="profile"><img src="assets/images/people/profile-m-1.png" alt=""></figure>
-                            <div class="content">
-                                <blockquote>
-                                <i class="fa fa-quote-left"></i>
-                                <p>We used Velocity as a front-end design template for our product site. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit tortor, consectetur vitae varius at, interdum eget libero. Morbi.</p>
-                                </blockquote>
-                                <p class="source">Kevin Knight<br><span class="title">Co-Founder, Startup Hub</span></p>
-                            </div><!--//content--
-                        </div><!--//item-->
-
-
                     </div><!--//carousel-inner-->
 
                 </div><!--//carousel-->
