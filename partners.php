@@ -85,11 +85,100 @@
 
     </section><!--//links-section-->
 
-    <section class="faq section has-bg-color">
+    <section class="faq section has-bg-color resources">
         <div class="container">
             <h2 class="title text-center">
                 Links and resources
             </h2>
+
+            <div class="row">
+
+              <div class="col-lg-3">
+                <div class="banner">
+                  <div class="inner">
+                    <a href="http://www.nxtinfo.org/" onmouseover="tooltip.pop(this, '#banner-1')">
+                      <img class="img-responsive" src="assets/images/partners/nxtinfo-banner2.png" alt="Nxtinfo.org" />
+                    </a>
+                    <div style="display: none;">
+                        <div id="banner-1">
+                            Get free NXT<br>
+                            Analyze NXT Asset Exchange<br>
+                            Visit <a href="http://www.nxtinfo.org/">www.nxtinfo.org</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="banner">
+                  <div class="inner">
+                    <a href="http://www.nxtinfo.org/" onmouseover="tooltip.pop(this, '#banner-2')">
+                      <img class="img-responsive" src="assets/images/partners/logo-blank.png" alt="SuperNET.org" />
+                    </a>
+                    <div style="display: none;">
+                        <div id="banner-2">
+                            <strong>Design guideline for banners</strong><br>
+                            Banner size: 512 &times; 256 px <br>
+                            Banner padding (whitespace): 30 px <br>
+                            Banner background color: transparent <br>
+                            Tooltip: arbitrary text up to 120 chars
+                            <hr>
+                            <span class="fa fa-arrow-down"><span>
+                              <a href="assets/images/partners/supernet-partners-banner-template-512x256.svg">Download SVG template</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="banner">
+                  <div class="inner">
+                    <a href="http://www.nxtinfo.org/"  onmouseover="tooltip.pop(this, '#banner-3')">
+                      <img class="img-responsive" src="assets/images/partners/logo-blank.png" alt="SuperNET.org" />
+                    </a>
+                    <div style="display: none;">
+                        <div id="banner-3">
+                            <strong>Design guideline for banners</strong><br>
+                            Banner size: 512 &times; 256 px <br>
+                            Banner padding (whitespace): 30 px <br>
+                            Banner background color: transparent <br>
+                            Tooltip: arbitrary text up to 120 chars
+                            <hr>
+                            <span class="fa fa-arrow-down"><span>
+                              <a href="assets/images/partners/supernet-partners-banner-template-512x256.svg">Download SVG template</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="banner">
+                  <div class="inner">
+                    <a href="http://www.nxtinfo.org/"  onmouseover="tooltip.pop(this, '#banner-4')">
+                      <img class="img-responsive" src="assets/images/partners/logo-blank.png" alt="SuperNET.org" />
+                    </a>
+                    <div style="display: none;">
+                        <div id="banner-4">
+                          <strong>Design guideline for banners</strong><br>
+                          Banner size: 512 &times; 256 px <br>
+                          Banner padding (whitespace): 30 px <br>
+                          Banner background color: transparent <br>
+                          Tooltip: arbitrary text up to 120 chars
+                          <hr>
+                          <span class="fa fa-arrow-down"><span>
+                            <a href="assets/images/partners/supernet-partners-banner-template-512x256.svg">Download SVG template</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
 
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">

@@ -32,7 +32,7 @@
     /* inline-block space fix */
     margin-right:-4px;
 }
-/*   
+/*
  * Template Name: SuperNET - Responsive Website Template for Products
  * Version: 1.5
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -1435,6 +1435,19 @@ select {
 .faq .panel .panel-title:hover .fa {
   color: #f89d29;
 }
+.resources .banner {
+  border-bottom: 4px #E9E9E9 solid;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.resources .banner .inner {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #fff;
+  padding: 5px 15px;
+}
+
+
 .faq .contact-lead {
   margin-top: 60px;
 }
@@ -2098,7 +2111,7 @@ select {
     margin: 5px 0 15px 0;
 }
 .float-box .info {
-    
+
 }
 .float-box .contact-form0 {
     background: #ffffff;
@@ -3281,7 +3294,7 @@ select {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-    
+
     /* Floating Box */
     .float-box {
         position: relative;
@@ -3304,17 +3317,17 @@ select {
       bottom: inherit;
     }
     .float-box .big-btn a {
-        
+
     }
     .float-box .big-btn a .fa {
-        
+
     }
-    
+
     .blog-list .post .content {
         padding: 0;
     }
 
-    
+
   .config-wrapper {
     display: none;
   }
