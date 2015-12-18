@@ -2,6 +2,9 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^supernet\.org$ [NC]
 RewriteRule ^(.*)$ http://www.supernet.org/$1 [R=301,L]
 
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 # Redirect old pages
 Redirect 301 /index.html /index.php
 Redirect 301 /about.html /about.php
