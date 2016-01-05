@@ -1,30 +1,60 @@
 <?php
-    include("./inc_header.php"); 
-    
+    include("./inc_header.php");
+
      header1(
-        $body_class = "login-page access-page has-full-screen-bg",
-        $wrapper    = true,
+        $body_class = "home-page",
+        $wrapper    = false,
         $tooltip    = true,
-        $nav_show   = false,
+        $nav_show   = true,
         $nav_item   = "chat",
         $title      = "SuperNET Chat - Get in touch instantly via the SuperNET Slack "
     )
 ?>
-        <!-- ******Login Section****** --> 
-        <section class="login-section access-section section">
-            <div class="container">
-                <div class="row">
-                    <div class="form-box col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">     
-                        <div class="form-box-inner">
-                            <iframe src="http://slackinvite.supernet.org/" style="border:0; width:100%; height:600px;"></iframe>
-                            <p class="text-center"><Join the SuperNET Slack</p>
-                        </div><!--//form-box-inner-->
-                    </div><!--//form-box-->
-                </div><!--//row-->
-            </div><!--//container-->
-        </section><!--//contact-section-->
-    </div><!--//upper-wrapper-->
-    
+
+<div class="headline-bg blog-headline-bg">
+</div><!--//headline-bg-->
+
+<!-- ******Video Section****** -->
+<section class="story-section section section-on-bg">
+    <h2 class="title container text-center">Join the SuperNET Slack</h2>
+    <div class="story-container container text-center">
+        <div class="story-container-inner" >
+            <div class="about text-center">
+
+              <h2>Slackinvite</h2>
+              <p>
+                &nbsp;
+              </p>
+              <p>
+                <i style="font-size:72px;color:#ccc;" class="fa fa-slack"></i>
+              </p>
+              <p>
+                Automatic Slack invite is temporary disabled.
+              </p>
+              <p>
+                Please write to <a href="mailto:info@supernet.org" title="Slackinvite">info@supernet.org</a> for an invite.
+              </p>
+              <p>
+                &nbsp;
+              </p>
+              <p>
+                &nbsp;
+              </p>
+              <p>
+                &nbsp;
+              </p>
+              <p>
+                &nbsp;
+              </p>
+              <p>
+                &nbsp;
+              </p>
+              
+            </div><!--//about-->
+        </div><!--//story-container-->
+    </div><!--//container-->
+</section><!--//story-video-->
+
 <?php
     include("./inc_footer.php");
 ?>
