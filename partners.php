@@ -113,19 +113,14 @@
               <div class="col-lg-3">
                 <div class="banner">
                   <div class="inner">
-                    <a href="http://www.nxtinfo.org/" onmouseover="tooltip.pop(this, '#banner-2')">
-                      <img class="img-responsive" src="assets/images/partners/logo-blank.png" alt="SuperNET.org" />
+                    <a href="https://twitter.com/coremedia_info" onmouseover="tooltip.pop(this, '#banner-2')">
+                      <img class="img-responsive" src="assets/images/partners/core-banner1.png" alt="Core Media" />
                     </a>
                     <div style="display: none;">
                         <div id="banner-2">
-                            <strong>Design guideline for banners</strong><br>
-                            Banner size: 512 &times; 256 px <br>
-                            Banner padding (whitespace): 30 px <br>
-                            Banner background color: transparent <br>
-                            Tooltip: arbitrary text up to 120 chars
-                            <hr>
-                            <span class="fa fa-arrow-down"><span>
-                              <a href="assets/images/partners/supernet-partners-banner-template-512x256.svg">Download SVG template</a>
+                            <strong>CORE Media</strong><br>
+                            Harnessing The Benefits of Technology<br>
+                            For The Good of Humanity
                         </div>
                     </div>
                   </div>
@@ -135,7 +130,7 @@
               <div class="col-lg-3">
                 <div class="banner">
                   <div class="inner">
-                    <a href="http://www.nxtinfo.org/"  onmouseover="tooltip.pop(this, '#banner-3')">
+                    <a href="#"  onmouseover="tooltip.pop(this, '#banner-3')">
                       <img class="img-responsive" src="assets/images/partners/logo-blank.png" alt="SuperNET.org" />
                     </a>
                     <div style="display: none;">
@@ -157,7 +152,7 @@
               <div class="col-lg-3">
                 <div class="banner">
                   <div class="inner">
-                    <a href="http://www.nxtinfo.org/"  onmouseover="tooltip.pop(this, '#banner-4')">
+                    <a href="#"  onmouseover="tooltip.pop(this, '#banner-4')">
                       <img class="img-responsive" src="assets/images/partners/logo-blank.png" alt="SuperNET.org" />
                     </a>
                     <div style="display: none;">
