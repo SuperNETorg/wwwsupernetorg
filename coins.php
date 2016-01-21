@@ -41,9 +41,9 @@
                                         <a href="https://github.com/jl777/btcd"><i class="fa fa-github"></i></a>
                                     </li>
                                 </ul>
-                                <a class="btn btn-cta btn-cta-primary" href="http://bitcoindark.pw/" onmouseover="tooltip.pop(this, '#btcd-link')"><span class="fa fa-globe"></span>Visit website</a>
+                                <a class="btn btn-cta btn-cta-primary" href="http://bitcoindark.com/" onmouseover="tooltip.pop(this, '#btcd-link')"><span class="fa fa-globe"></span>Visit website</a>
                                 <span style="display: none;">
-                                    <a id="btcd-link" href="http://bitcoindark.pw/">bitcoindark.pw</a>
+                                    <a id="btcd-link" href="http://bitcoindark.com/">bitcoindark.com</a>
                                 </span>
                             </div><!--//content-->
                         </div><!--//item-inner-->
