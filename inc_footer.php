@@ -142,12 +142,12 @@
     document.querySelector('.swal-slack').onclick = function(){
     	swal({
     		title: "Join our slack community",
-    		// text: '<iframe width="320" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slackinvite.supernet.org/"></iframe>',
-        text: '<i style="font-size:72px;color:#ccc;" class="fa fa-slack"></i>' +
-              '<br>Automatic Slack invite is temporary disabled.<br>' +
-              'Please write to <a href="mailto:info@supernet.org" title="Slackinvite">info@supernet.org</a> for an invite.',
+    		text: '<iframe width="320" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slackinvite.supernet.org/"></iframe>',
+        // text: '<i style="font-size:72px;color:#ccc;" class="fa fa-slack"></i>' +
+        //       '<br>Automatic Slack invite is temporary disabled.<br>' +
+        //       'Please write to <a href="mailto:info@supernet.org" title="Slackinvite">info@supernet.org</a> for an invite.',
     		html: true,
-			showConfirmButton: true
+			showConfirmButton: false
     	});
 
     	$('.sweet-alert').css({'width': '478px', 'margin-left': '-256px'});
