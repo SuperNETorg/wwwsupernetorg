@@ -22,18 +22,22 @@
             <div class="about text-center">
 
               <h2>Slackinvite</h2>
-              <p>
-                &nbsp;
-              </p>
+              <!--
               <p>
                 <i style="font-size:72px;color:#ccc;" class="fa fa-slack"></i>
               </p>
               <p>
+                Join the SuperNET Slack
+              </p> -->
+
+              <iframe id="slackinvite" src="http://slackinvite.supernet.org/" style="border:0; width:100%; height:480px;"></iframe>
+
+              <!-- <p>
                 Automatic Slack invite is temporary disabled.
               </p>
               <p>
                 Please write to <a href="mailto:info@supernet.org" title="Slackinvite">info@supernet.org</a> for an invite.
-              </p>
+              </p> -->
               <p>
                 &nbsp;
               </p>
@@ -49,7 +53,7 @@
               <p>
                 &nbsp;
               </p>
-              
+
             </div><!--//about-->
         </div><!--//story-container-->
     </div><!--//container-->
