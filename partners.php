@@ -113,7 +113,7 @@
               <div class="col-lg-3">
                 <div class="banner">
                   <div class="inner">
-                    <a href="https://twitter.com/coremedia_info" onmouseover="tooltip.pop(this, '#banner-2')">
+                    <a href="http://coremedia.info/" onmouseover="tooltip.pop(this, '#banner-2')">
                       <img class="img-responsive" src="assets/images/partners/core-banner1.png" alt="Core Media" />
                     </a>
                     <div style="display: none;">
