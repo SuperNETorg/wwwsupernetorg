@@ -138,7 +138,7 @@
                 <ul class="press-list list-inline row last">
                     <li class="col-md-2 col-sm-2 col-xs-4"><a href="http://www.forbes.com/sites/rogeraitken/2015/07/05/greek-economic-crisis-is-a-parallel-currency-the-answer/"><img class="img-responsive" src="assets/images/press/press-7.png" alt=""></a></li>
                     <li class="col-md-2 col-sm-2 col-xs-4"><a href="http://cointelegraph.com/search?query=SuperNET"><img class="img-responsive" src="assets/images/press/press-13.png" alt=""></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="https://www.btcor.co/"><img class="img-responsive" src="assets/images/press/press-14.png" alt=""></a></li>
+                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="http://coremedia.info/"><img class="img-responsive" src="assets/images/press/press-14.png" alt=""></a></li>
                 </ul><!--//press-list-->
             </div><!--//container-->
         </section>
