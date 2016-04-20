@@ -65,6 +65,10 @@
   .assets .asset-info .amount {
     color: #253340;
   }
+  .disclaimer {
+    font-size: 13px;
+    padding-left: 15px;
+  }
 
 
 </style>
@@ -352,8 +356,13 @@
                 </div>
               </div>
 
+            </div>
 
-
+            <div class="row">
+              <p class="disclaimer">
+                Price feed for NAV calculation provided by <a href="http://www.cryptocoincharts.info">cryptocoincharts.info</a>.<br>
+                Assets value calculated from last traded price on decentralized NXT Asset Exchange.
+              </p>
             </div>
 
 
