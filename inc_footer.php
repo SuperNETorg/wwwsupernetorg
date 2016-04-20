@@ -121,6 +121,11 @@
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/js/main.js"></script>
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/js/pace.js"></script>
 
+<?php if ($nav_item == "nav") { ?>
+    <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/js/snnav.js"></script>
+<?php } ?>
+
+
     <!-- Vimeo video API -->
     <script type="text/javascript" data-cfasync="false" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/js/vimeo.js"></script>
