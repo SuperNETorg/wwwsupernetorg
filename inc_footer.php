@@ -14,6 +14,7 @@
                                 <li><a href="<?= $sprnt ?>/about.php"><i class="fa fa-caret-right"></i>About</a></li>
                                 <li><a href="<?= $sprnt ?>/download.php"><i class="fa fa-caret-right"></i>Download</a></li>
                                 <li><a href="<?= $sprnt ?>/partners.php"><i class="fa fa-caret-right"></i>Partners</a></li>
+                                <li><a href="<?= $sprnt ?>/nav.php"><i class="fa fa-caret-right"></i>Unity NAV</a></li>
                                 <li><a href="<?= $sprnt ?>/support-us.php"><i class="fa fa-caret-right"></i>Support Us</a></li>
                             </ul>
                         </div><!--//footer-col-inner-->

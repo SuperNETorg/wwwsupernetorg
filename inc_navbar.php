@@ -1,12 +1,12 @@
 <?php
     function navbar($nav_show=true, $nav_item="") {
-        
+
          // Server root
         $sprnt = "http://" . $_SERVER['SERVER_NAME'] . str_replace($_SERVER['DOCUMENT_ROOT'], '', str_replace("/blog", '', dirname($_SERVER['SCRIPT_FILENAME'])));
-        
+
         $nav = array();
         $nav[$nav_item] = "active";
-        
+
         if ($nav_show == true) {
 ?>
     <nav class="main-nav navbar-right" role="navigation">
@@ -25,7 +25,7 @@
                         <li class="<?=$nav["features"];?> nav-item"><a href="<?= $sprnt ?>/features.php">Features</a></li>
                         <li class="<?=$nav["download"];?> nav-item"><a href="<?= $sprnt ?>/download.php">Download</a></li>
                         <li class="<?=$nav["chat"];?> nav-item"><a href="<?= $sprnt ?>/chat.php">Chat</a></li>
-                        
+
                         <!--
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Coins <i class="fa fa-angle-down"></i></a>
@@ -39,10 +39,10 @@
                                 <li><a href="http://www.opal-coin.com">Opal</a></li>
                                 <li><a href="http://syscoin.org/">Syscoin</a></li>
                                 <li><a href="http://vericoin.info">Vericoin</a></li>
-                                <li><a href="http://www.bitnet.wang">VPNCoin</a></li>         
-                            </ul>                            
-                        </li><!--//dropdown-->   
-                        
+                                <li><a href="http://www.bitnet.wang">VPNCoin</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+
                         <li class="<?=$nav["coins"];?> nav-item"><a href="<?= $sprnt ?>/coins.php">Coins</a></li>
                         <li class="<?=$nav["team"];?> nav-item"><a href="<?= $sprnt ?>/team.php">Team</a></li>
                         <li class="<?=$nav["blog"];?> nav-item"><a href="<?= $sprnt ?>/blog/">Blog</a></li>
@@ -56,14 +56,14 @@
                         <li class="nav-item nav-icon">
                             <a href="https://www.reddit.com/r/supernet" target="_blank"><i class="fa fa-reddit"></i></a>
                         </li>
-                       
+
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->  
+            </nav><!--//main-nav-->
 <?php
 
         }
-        
+
     }
 
 ?>

@@ -5,9 +5,9 @@ $.ajaxSetup({
 });
 
 var urlNXT = '';
-urlNXT = 'http://178.150.207.53:7876/nxt';
-urlNXT = 'http://humanoide.thican.net:7876/nxt';
 urlNXT = 'http://localhost:7876/nxt';
+urlNXT = 'http://humanoide.thican.net:7876/nxt';
+urlNXT = 'http://178.150.207.53:7876/nxt';
 
 
 var accountnxt1 = "NXT-MRBN-8DFH-PFMK-A4DBM";
@@ -312,7 +312,7 @@ naveur = (naveur).toMoney(2, '.', ',');
 $('#naveur').html(naveur);
 
 
-console.log(assets);
+// console.log(assets);
 console.log(urlNXT);
 
 });
