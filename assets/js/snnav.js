@@ -115,7 +115,7 @@ assets[7] = {
 };
 assets[8] = {
     id:"1976421459488798622",   decimals:4, name:"SNcoinv1",
-    balance1:55, balance2:0, balance3:0,
+    balance1:0, balance2:55, balance3:0,
     website:"https://nxtforum.org/assets-board/sncoinv1-supernet-silver-bullion-coin/"
 };
 // assets[9] = {};
