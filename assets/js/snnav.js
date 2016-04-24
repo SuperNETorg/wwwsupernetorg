@@ -36,7 +36,8 @@ var vrcqty = 2149879.41454445; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
 var vpnqty = 19050518.15875554; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 var bbrqty = 200000; //Poloniex
-
+var bitsqty = 1000000; //Poloniex
+var fibreqty = 31944.375367616; //5% of Fibre supply
 
 function getratio (ticker) {
   $.getJSON('http://api.cryptocoincharts.info/tradingPair/' + ticker, {}, function(request5) {
@@ -66,6 +67,9 @@ var vrc_btc = getratio('vrc_btc');
 var vpn_btc = getratio('vpn_btc');
 var sys_btc = getratio('sys_btc');
 var bbr_btc = getratio('bbr_btc');
+var bits_btc = getratio('bits_btc');
+var fibre_btc = getratio('fibre_btc');
+
 var btc_usd = getratio('btc_usd');
 var btc_eur = getratio('btc_eur');
 
@@ -118,7 +122,11 @@ assets[8] = {
     balance1:0, balance2:55, balance3:0,
     website:"https://nxtforum.org/assets-board/sncoinv1-supernet-silver-bullion-coin/"
 };
-// assets[9] = {};
+assets[9] = {
+  id:"16353645177223876977",   decimals:4, name:"LazyTweeps",
+  balance1:0, balance2:100000, balance3:0,
+  website:"https://nxtforum.org/asset-exchange-general/(ann)-lazytweeps-(asset-id-16353645177223876977)/"
+};
 // assets[10] = {};
 assets[11] = {
     id:"17911762572811467637",  decimals:4, name:"NXTprivacy",
@@ -161,7 +169,7 @@ assets[200] = {
 };
 assets[201] = {
     id:"10955830010602647139",  decimals:2, name:"Longzai",
-    balance1:50146.79, balance2:627.03, balance3:0,
+    balance1:0, balance2:50146.79, balance3:627.03,
     website:"https://nxtforum.org/unity/supernet-dev-assets/"
 };
 
@@ -244,6 +252,9 @@ var vrcbtcbalance = vrc_btc * vrcqty;
 var vpnbtcbalance = vpn_btc * vpnqty;
 var sysbtcbalance = sys_btc * sysqty;
 var bbrbtcbalance = bbr_btc * bbrqty;
+var bitsbtcbalance = bits_btc * bitsqty;
+var fibrebtcbalance = fibre_btc * fibreqty;
+
 
 var totalnxt = (nxtqty).toMoney(0, '.', ',');
 var totalbtcd = (btcdqty).toMoney(0, '.', ',');
@@ -251,6 +262,8 @@ var totalsys = (sysqty).toMoney(0, '.', ',');
 var totalvrc = (vrcqty).toMoney(0, '.', ',');
 var totalvpn = (vpnqty).toMoney(0, '.', ',');
 var totalbbr = (bbrqty).toMoney(0, '.', ',');
+var totalbits = (bitsqty).toMoney(0, '.', ',');
+var totalfibre = (fibreqty).toMoney(0, '.', ',');
 
 nxtbtc = (nxtbtcbalance).toMoney(0, '.', ',');
 btcdbtc = (btcdbtcbalance).toMoney(0, '.', ',');
@@ -258,6 +271,9 @@ sysbtc = (sysbtcbalance).toMoney(0, '.', ',');
 vrcbtc = (vrcbtcbalance).toMoney(0, '.', ',');
 vpnbtc = (vpnbtcbalance).toMoney(0, '.', ',');
 bbrbtc = (bbrbtcbalance).toMoney(0, '.', ',');
+bitsbtc = (bitsbtcbalance).toMoney(0, '.', ',');
+fibrebtc = (fibrebtcbalance).toMoney(0, '.', ',');
+
 
 $('#totalnxt').html(totalnxt);
 $('#totalbtcd').html(totalbtcd);
@@ -265,6 +281,8 @@ $('#totalsys').html(totalsys);
 $('#totalvrc').html(totalvrc);
 $('#totalvpn').html(totalvpn);
 $('#totalbbr').html(totalbbr);
+$('#totalbits').html(totalbits);
+$('#totalfibre').html(totalfibre);
 
 $('#nxtbtcbalance').html(nxtbtc);
 $('#btcdbtcbalance').html(btcdbtc);
@@ -272,6 +290,8 @@ $('#sysbtcbalance').html(sysbtc);
 $('#vrcbtcbalance').html(vrcbtc);
 $('#vpnbtcbalance').html(vpnbtc);
 $('#bbrbtcbalance').html(bbrbtc);
+$('#bitsbtcbalance').html(bitsbtc);
+$('#fibrebtcbalance').html(fibrebtc);
 
 
 // Populate Coins Balance
@@ -289,10 +309,12 @@ $('#sysbalance1').html(sysqty.toMoney(0, ".", ","));
 $('#vrcbalance1').html(vrcqty.toMoney(0, ".", ","));
 $('#vpnbalance1').html(vpnqty.toMoney(0, ".", ","));
 $('#bbrbalance1').html(bbrqty.toMoney(0, ".", ","));
+$('#bitsbalance1').html(bitsqty.toMoney(0, ".", ","));
+$('#fibrebalance1').html(fibreqty.toMoney(0, ".", ","));
 
 // Calculate NAV
 // ---------------------------
-var totalbtc = (nxtbtcbalance + btcdbtcbalance + vrcbtcbalance + vpnbtcbalance + sysbtcbalance + bbrbtcbalance + assetstotalbtc);
+var totalbtc = (nxtbtcbalance + btcdbtcbalance + vrcbtcbalance + vpnbtcbalance + sysbtcbalance + bbrbtcbalance + bitsbtcbalance + fibrebtcbalance + assetstotalbtc);
 
 var navbtc = totalbtc / 816061;
 var navnxt = navbtc / nxt_btc;
