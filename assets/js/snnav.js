@@ -192,13 +192,18 @@ for (var i in assets) {
   // Calculate Asset BTC price
   assets[i].totalbtc = assets[i].totalnxt * nxt_btc;
 
+  // SuperBTC price = BTC price
+  if (assets[i].id == "12659653638116877017") {
+    assets[i].totalbtc = assets[i].balance1 + assets[i].balance2 + assets[i].balance3;
+  }
+
   // Clone container for Asset
   $( ".asset-id-" ).clone().appendTo(".assets .row:first").removeClass("asset-id-").addClass("asset-id-" + i).show();
 
   // Format and populate Assets data
   var assetbalance = assets[i].balance.toMoney(0, '.', ',');
   var assetnxt = assets[i].totalnxt.toMoney(0, '.', ',');
-  var assetbtc = assets[i].totalbtc.toMoney(0, '.', ',');
+  var assetbtc = assets[i].totalbtc.toMoney(1, '.', ',');
   $('.asset-id-' + i + ' .name').html(assets[i].name);
   $('.asset-id-' + i + ' .shares').html(assetbalance);
   $('.asset-id-' + i + ' .nxt').html(assetnxt);
@@ -237,6 +242,8 @@ for (var i in assets) {
     $('.asset-id-' + i + ' .shares-tooltip').append('Account: <a href="https://nxtportal.org/accounts/' +
     accountnxt3 + '" target="_blank">' + accountnxt3 + '</a> : ' + assetbalance3 + ' shares<br>');
   }
+  // Latest price
+  // $('.asset-id-' + i + ' .asset-tooltip').append('Latest price: ' + assets[i].price.toMoney(2, '.', ',') + ' NXT');
 
   // Calculate Assets Total NXT
   assetstotalnxt = assetstotalnxt + assets[i].totalnxt;
@@ -265,14 +272,14 @@ var totalbbr = (bbrqty).toMoney(0, '.', ',');
 var totalbits = (bitsqty).toMoney(0, '.', ',');
 var totalfibre = (fibreqty).toMoney(0, '.', ',');
 
-nxtbtc = (nxtbtcbalance).toMoney(0, '.', ',');
-btcdbtc = (btcdbtcbalance).toMoney(0, '.', ',');
-sysbtc = (sysbtcbalance).toMoney(0, '.', ',');
-vrcbtc = (vrcbtcbalance).toMoney(0, '.', ',');
-vpnbtc = (vpnbtcbalance).toMoney(0, '.', ',');
-bbrbtc = (bbrbtcbalance).toMoney(0, '.', ',');
-bitsbtc = (bitsbtcbalance).toMoney(0, '.', ',');
-fibrebtc = (fibrebtcbalance).toMoney(0, '.', ',');
+nxtbtc = (nxtbtcbalance).toMoney(1, '.', ',');
+btcdbtc = (btcdbtcbalance).toMoney(1, '.', ',');
+sysbtc = (sysbtcbalance).toMoney(1, '.', ',');
+vrcbtc = (vrcbtcbalance).toMoney(1, '.', ',');
+vpnbtc = (vpnbtcbalance).toMoney(1, '.', ',');
+bbrbtc = (bbrbtcbalance).toMoney(1, '.', ',');
+bitsbtc = (bitsbtcbalance).toMoney(1, '.', ',');
+fibrebtc = (fibrebtcbalance).toMoney(1, '.', ',');
 
 
 $('#totalnxt').html(totalnxt);

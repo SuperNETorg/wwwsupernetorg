@@ -339,7 +339,7 @@
                           <div style="display: none;">
                               <div id="coinbalance-info-5">
                                 <!-- Tooltip Content -->
-                                SuperNET owns cca.
+                                SuperNET owns ~
                                 <span id="bbrbalance1"></span> coins<br>
                               </div>
                           </div>
@@ -374,7 +374,7 @@
                           <div style="display: none;">
                               <div id="coinbalance-info-6">
                                 <!-- Tooltip Content -->
-                                SuperNET owns cca.
+                                SuperNET owns ~
                                 <span id="bitsbalance1"></span> coins<br>
                               </div>
                           </div>
@@ -408,7 +408,7 @@
                           <div style="display: none;">
                               <div id="coinbalance-info-7">
                                 <!-- Tooltip Content -->
-                                SuperNET owns cca.
+                                SuperNET owns ~
                                 <span id="fibrebalance1"></span> coins<br>
                               </div>
                           </div>
