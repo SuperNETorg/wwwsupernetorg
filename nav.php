@@ -309,6 +309,45 @@
                 </div><!--//post-inner-->
             </article>
 
+
+            <article class="post col-md-4 col-sm-6 col-xs-12">
+                <div class="post-inner">
+                    <figure class="post-thumb">
+                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-8')">
+                            <img class="img-responsive" src="assets/images/coin-logos/logo-iota-192.png" alt="IOTA">
+                        </a>
+                    </figure><!--//post-thumb-->
+                    <div style="display: none;">
+                        <div id="coin-info-8">
+                          <!-- Tooltip Content -->
+                          Website: <a href="http://www.iotatoken.com/">Iotatoken.com</a><br>
+                          Forum: <a href="http://forum.iotatoken.com/">forum.iotatoken.com</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <div class="post-entry">
+                        </div> -->
+                        <div class="meta">
+                            <div class="meta-list list-inline">
+                              <h3 class="post-title text-center">Total:
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> IOTA</h3>
+                              <p class="text-center"><span id="iotabtcbalance"></span> BTC</p>
+                          </div><!--//meta-list-->
+                          <div style="display: none;">
+                              <div id="coinbalance-info-8">
+                                <!-- Tooltip Content -->
+                                Account: <a href="https://tangle.ninja/address/OZSHBYNQLLKOUDQMZRHMYZQFC9JPXIWNITEOMX9NBDWBBIIWDPBHAZTCQBTOSAYION9RMUIXMIYGZVNXF"
+                                target="_blank">OZSHBYNQLLKOUDQMZ...UIXMIYGZVNXF</a>
+                                : <span id="iotabalance1"></span> coins<br>
+                              </div>
+                          </div>
+                        </div><!--//meta-->
+                    </div><!--//content-->
+                </div><!--//post-inner-->
+            </article>
+
+
+
           </div><!--//container-->
             <div class="blog container blog-list core-coins">
 
@@ -416,6 +455,8 @@
                     </div><!--//content-->
                 </div><!--//post-inner-->
             </article>
+
+
 
         </div><!--//container-->
 

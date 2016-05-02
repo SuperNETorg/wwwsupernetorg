@@ -19,7 +19,6 @@ var accountvrc = "VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2";
 var accountvpn = "VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ";
 var accountsys = "SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y";
 var accountiota = "OZSHBYNQLLKOUDQMZRHMYZQFC9JPXIWNITEOMX9NBDWBBIIWDPBHAZTCQBTOSAYION9RMUIXMIYGZVNXF";
-var iotaqty = 0;
 
 var nxtqty1 = 16466762.17452034; //NXT-MRBN-8DFH-PFMK-A4DBM
 var nxtqty2 = 80963.61359188; //NXT-USU4-92UY-KEYT-4H649
@@ -38,6 +37,8 @@ var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 var bbrqty = 200000; //Poloniex
 var bitsqty = 1000000; //Poloniex
 var fibreqty = 31944.375367616; //5% of Fibre supply
+
+var iotaqty = 18058346; //tangle.ninja
 
 function getratio (ticker) {
   $.getJSON('http://api.cryptocoincharts.info/tradingPair/' + ticker, {}, function(request5) {
@@ -69,6 +70,7 @@ var sys_btc = getratio('sys_btc');
 var bbr_btc = getratio('bbr_btc');
 var bits_btc = getratio('bits_btc');
 var fibre_btc = getratio('fibre_btc');
+var iota_btc = getratio('iota_btc');
 
 var btc_usd = getratio('btc_usd');
 var btc_eur = getratio('btc_eur');
@@ -261,6 +263,7 @@ var sysbtcbalance = sys_btc * sysqty;
 var bbrbtcbalance = bbr_btc * bbrqty;
 var bitsbtcbalance = bits_btc * bitsqty;
 var fibrebtcbalance = fibre_btc * fibreqty;
+var iotabtcbalance = iota_btc * iotaqty;
 
 
 var totalnxt = (nxtqty).toMoney(0, '.', ',');
@@ -271,6 +274,7 @@ var totalvpn = (vpnqty).toMoney(0, '.', ',');
 var totalbbr = (bbrqty).toMoney(0, '.', ',');
 var totalbits = (bitsqty).toMoney(0, '.', ',');
 var totalfibre = (fibreqty).toMoney(0, '.', ',');
+var totaliota = (iotaqty).toMoney(0, '.', ',');
 
 nxtbtc = (nxtbtcbalance).toMoney(1, '.', ',');
 btcdbtc = (btcdbtcbalance).toMoney(1, '.', ',');
@@ -280,6 +284,7 @@ vpnbtc = (vpnbtcbalance).toMoney(1, '.', ',');
 bbrbtc = (bbrbtcbalance).toMoney(1, '.', ',');
 bitsbtc = (bitsbtcbalance).toMoney(1, '.', ',');
 fibrebtc = (fibrebtcbalance).toMoney(1, '.', ',');
+iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
 
 
 $('#totalnxt').html(totalnxt);
@@ -290,6 +295,7 @@ $('#totalvpn').html(totalvpn);
 $('#totalbbr').html(totalbbr);
 $('#totalbits').html(totalbits);
 $('#totalfibre').html(totalfibre);
+$('#totaliota').html(totaliota);
 
 $('#nxtbtcbalance').html(nxtbtc);
 $('#btcdbtcbalance').html(btcdbtc);
@@ -299,6 +305,7 @@ $('#vpnbtcbalance').html(vpnbtc);
 $('#bbrbtcbalance').html(bbrbtc);
 $('#bitsbtcbalance').html(bitsbtc);
 $('#fibrebtcbalance').html(fibrebtc);
+$('#iotabtcbalance').html(iotabtc);
 
 
 // Populate Coins Balance
@@ -318,10 +325,11 @@ $('#vpnbalance1').html(vpnqty.toMoney(0, ".", ","));
 $('#bbrbalance1').html(bbrqty.toMoney(0, ".", ","));
 $('#bitsbalance1').html(bitsqty.toMoney(0, ".", ","));
 $('#fibrebalance1').html(fibreqty.toMoney(0, ".", ","));
+$('#iotabalance1').html(iotaqty.toMoney(0, ".", ","));
 
 // Calculate NAV
 // ---------------------------
-var totalbtc = (nxtbtcbalance + btcdbtcbalance + vrcbtcbalance + vpnbtcbalance + sysbtcbalance + bbrbtcbalance + bitsbtcbalance + fibrebtcbalance + assetstotalbtc);
+var totalbtc = (nxtbtcbalance + btcdbtcbalance + vrcbtcbalance + vpnbtcbalance + sysbtcbalance + iotabtcbalance + bbrbtcbalance + bitsbtcbalance + fibrebtcbalance + assetstotalbtc);
 
 var navbtc = totalbtc / 816061;
 var navnxt = navbtc / nxt_btc;
