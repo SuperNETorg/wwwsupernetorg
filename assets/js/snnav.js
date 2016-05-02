@@ -20,9 +20,9 @@ var accountvpn = "VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ";
 var accountsys = "SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y";
 var accountiota = "OZSHBYNQLLKOUDQMZRHMYZQFC9JPXIWNITEOMX9NBDWBBIIWDPBHAZTCQBTOSAYION9RMUIXMIYGZVNXF";
 
-var nxtqty1 = 16466762.17452034; //NXT-MRBN-8DFH-PFMK-A4DBM
-var nxtqty2 = 80963.61359188; //NXT-USU4-92UY-KEYT-4H649
-var nxtqty3 = 85454.51868197; //NXT-H8AL-VEG7-4FL5-G2L4W
+var nxtqty1 = 15192214.92752034; //NXT-MRBN-8DFH-PFMK-A4DBM
+var nxtqty2 = 81166.87439447 ; //NXT-USU4-92UY-KEYT-4H649
+var nxtqty3 = 85455.28687247; //NXT-H8AL-VEG7-4FL5-G2L4W
 var nxtqty = nxtqty1 + nxtqty2 + nxtqty3;
 
 var btcdqty1 = 37145.57109913; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
@@ -111,7 +111,7 @@ assets[5] = {
 };
 assets[6] = {
     id:"12071612744977229797",  decimals:4, name:"SuperNET",
-    balance1:36700.4002, balance2:105376.9874, balance3:398.627,
+    balance1:31.4562, balance2:105376.9874, balance3:398.627,
     website:"http://www.supernet.org/"
 };
 assets[7] = {
@@ -140,6 +140,11 @@ assets[12] = {
     balance1:241485, balance2:0, balance3:0,
     website:"https://nxtforum.org/nxtventures/nxtcoinsco-nodecoin-svmcoin-and-more-coins/"
 };
+assets[13] = {
+    id:"3006420581923704757",  decimals:4, name:"sharkfund0",
+    balance1:358, balance2:0, balance3:0,
+    website:"https://nxtforum.org/nxtventures/shark-report-sharktales-and-other-musings/"
+};
 // assets[13] = {};
 // assets[14] = {};
 // assets[15] = {};
@@ -164,16 +169,17 @@ assets[100] = {
     website:"https://www.bitcoin.org/"
 };
 // assets[101] = {};
-assets[200] = {
-    id:"15131486578879082754",  decimals:2, name:"BTCDdev",
-    balance1:0, balance2:47102.88, balance3:627.03,
-    website:"https://nxtforum.org/unity/supernet-dev-assets/"
-};
-assets[201] = {
-    id:"10955830010602647139",  decimals:2, name:"Longzai",
-    balance1:0, balance2:50146.79, balance3:627.03,
-    website:"https://nxtforum.org/unity/supernet-dev-assets/"
-};
+
+// assets[200] = {
+//     id:"15131486578879082754",  decimals:2, name:"BTCDdev",
+//     balance1:0, balance2:47102.88, balance3:627.03,
+//     website:"https://nxtforum.org/unity/supernet-dev-assets/"
+// };
+// assets[201] = {
+//     id:"10955830010602647139",  decimals:2, name:"Longzai",
+//     balance1:0, balance2:50146.79, balance3:627.03,
+//     website:"https://nxtforum.org/unity/supernet-dev-assets/"
+// };
 
 
 var assetstotalnxt = 0;
