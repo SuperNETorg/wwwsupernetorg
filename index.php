@@ -33,6 +33,8 @@
                   <span class="fa fa-slack"></span>Community</a></li>
             <li><a class="btn btn-ghost swal swal-news" href="http://eepurl.com/2D4wb" onmouseover="tooltip.pop(this, 'Sign up for our newsletter')">
                   <span class="fa fa-envelope"></span>Newsletter</a></li>
+            <li><a class="btn btn-ghost" href="nav.php" onmouseover="tooltip.pop(this, 'Check out the Net Asset Value of SuperNET')">
+                  <span class="fa fa-bar-chart"></span>SuperNET NAV</a></li>
              </ul>
 
         </div><!--//container-->

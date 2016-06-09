@@ -277,14 +277,14 @@
                 <div class="post-inner">
                     <figure class="post-thumb">
                         <a href="#" onmouseover="tooltip.pop(this, '#coin-info-4')">
-                            <img class="img-responsive" src="assets/images/coin-logos/logo-vpn-192.png" alt="VPN">
+                            <img class="img-responsive" src="assets/images/coin-logos/logo-waves-192.png" alt="WAVES">
                         </a>
                     </figure><!--//post-thumb-->
                     <div style="display: none;">
                         <div id="coin-info-4">
                           <!-- Tooltip Content -->
-                          Website: <a href="http://www.bitnet.pw/en_US/">Bitnet.pw</a><br>
-                          Forum: <a href="https://bitcointalk.org/index.php?topic=789961.0">Bitcointalk.org</a>
+                          Website: <a href="https://wavesplatform.com/">Wavesplatform.com</a><br>
+                          Forum: <a href="http://wavesplatform-slack.herokuapp.com/">Slack</a>
                         </div>
                     </div>
                     <div class="content">
@@ -293,15 +293,15 @@
                         <div class="meta">
                             <div class="meta-list list-inline">
                               <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-4')"><span class="amount" id="totalvpn"></span></a> VPN</h3>
-                              <p class="text-center"><span id="vpnbtcbalance"></span> BTC</p>
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-4')"><span class="amount" id="totalwaves"></span></a> WAVES</h3>
+                              <p class="text-center"><span id="wavesbtcbalance"></span> BTC</p>
                           </div><!--//meta-list-->
                           <div style="display: none;">
                               <div id="coinbalance-info-4">
                                 <!-- Tooltip Content -->
-                                Account: <a href="https://www.blockexperts.com/vpn/address/VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ"
-                                target="_blank">VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ</a>
-                                : <span id="vpnbalance1"></span> coins<br>
+                                Account: <a href="https://ico.wavesplatform.com/"
+                                target="_blank">Waves ICO</a>
+                                : <span id="wavesbalance1"></span> coins<br>
                               </div>
                           </div>
                         </div><!--//meta-->
@@ -339,6 +339,7 @@
                                 Account: <a href="https://tangle.ninja/address/OZSHBYNQLLKOUDQMZRHMYZQFC9JPXIWNITEOMX9NBDWBBIIWDPBHAZTCQBTOSAYION9RMUIXMIYGZVNXF"
                                 target="_blank">OZSHBYNQLLKOUDQMZ...UIXMIYGZVNXF</a>
                                 : <span id="iotabalance1"></span> coins<br>
+                                ( 18,058,346 crowdsale IOTA assets )
                               </div>
                           </div>
                         </div><!--//meta-->
@@ -351,6 +352,40 @@
           </div><!--//container-->
             <div class="blog container blog-list core-coins">
 
+            <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                <div class="post-inner">
+                    <figure class="post-thumb">
+                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-9')">
+                            <img class="img-responsive" src="assets/images/coin-logos/logo-vpn-192.png" alt="VPN">
+                        </a>
+                    </figure><!--//post-thumb-->
+                    <div style="display: none;">
+                        <div id="coin-info-9">
+                          <!-- Tooltip Content -->
+                          Website: <a href="http://www.bitnet.pw/en_US/">Bitnet.pw</a><br>
+                          Forum: <a href="https://bitcointalk.org/index.php?topic=789961.0">Bitcointalk.org</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <div class="post-entry">
+                        </div> -->
+                        <div class="meta">
+                            <div class="meta-list list-inline">
+                              <h3 class="post-title text-left">
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-9')"><span class="amount" id="totalvpn"></span></a> VPN</h3>
+                              <p class="text-left"><span id="vpnbtcbalance"></span> BTC</p>
+                          </div><!--//meta-list-->
+                          <div style="display: none;">
+                              <div id="coinbalance-info-9">
+                                <!-- Tooltip Content -->
+                                SuperNET owns ~
+                                <span id="vpnbalance1"></span> coins<br>
+                              </div>
+                          </div>
+                        </div><!--//meta-->
+                    </div><!--//content-->
+                </div><!--//post-inner-->
+            </article>
 
             <article class="post small-post col-md-4 col-sm-6 col-xs-12">
                 <div class="post-inner">
@@ -441,7 +476,7 @@
                         <div class="meta">
                             <div class="meta-list list-inline">
                               <h3 class="post-title text-left">
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-7')"><span class="amount" id="totalfibre"></span></a> BITS</h3>
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-7')"><span class="amount" id="totalfibre"></span></a> FIBRE</h3>
                               <p class="text-left"><span id="fibrebtcbalance"></span> BTC</p>
                           </div><!--//meta-list-->
                           <div style="display: none;">
