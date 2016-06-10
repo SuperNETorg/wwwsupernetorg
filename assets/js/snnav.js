@@ -27,6 +27,9 @@ function getnxtserver(){
                          if (nxtPeersResult.peers[i] == "178.150.207.53") {
                            nxtPeersResult.peers.splice(i,1)
                          }
+                         if (nxtPeersResult.peers[i] == "82.165.145.37") {
+                           nxtPeersResult.peers.splice(i,1)
+                         }
                        }
 
                        var random = Math.floor((Math.random() * (nxtPeersResult.peers.length - 1)) + 0);
