@@ -162,63 +162,51 @@ assets[0] = {
 
 assets[1] = {
     id:"15344649963748848799",  decimals:0, name:"Instantdex",
-    balance1:241485, balance2:0, balance3:0,
     website:"http://www.instantdex.org/"
 };
 assets[2] = {
     id:"6883271355794806507",   decimals:4, name:"Pangea",
-    balance1:647.6954, balance2:415125.8674, balance3:0,
     website:"http://pangeapoker.net/"
 };
 assets[3] = {
     id:"6854596569382794790",   decimals:4, name:"SkyNET",
-    balance1:105777.2576, balance2:214132.8273, balance3:0,
     website:"http://www.finhive.com/"
 };
 assets[4] = {
     id:"8688289798928624137",   decimals:4, name:"Jay",
-    balance1:9560.2556, balance2:410197.1452, balance3:77.9929,
     website:"http://jnxt.org/"
 };
 assets[5] = {
     id:"2176003302076381931",   decimals:0, name:"MyNXT",
-    balance1:21886, balance2:30100, balance3:0,
     website:"https://www.mynxt.info/"
 };
 assets[6] = {
     id:"12071612744977229797",  decimals:4, name:"SuperNET",
-    balance1:31.4562, balance2:105376.9874, balance3:398.627,
     website:"http://www.supernet.org/"
 };
 assets[7] = {
     id:"13502152099823770958",  decimals:4, name:"SuperNETx2",
-    balance1:1028, balance2:3315.8329, balance3:1584.4264,
     website:"https://nxtforum.org/unity/supernetx2-and-the-centralized-product-management-team-(cpmt)/"
 };
 assets[8] = {
     id:"1976421459488798622",   decimals:4, name:"SNcoinv1",
-    balance1:0, balance2:55, balance3:0,
     website:"https://nxtforum.org/assets-board/sncoinv1-supernet-silver-bullion-coin/"
 };
 assets[9] = {
   id:"16353645177223876977",   decimals:4, name:"LazyTweeps",
-  balance1:0, balance2:100000, balance3:0,
   website:"https://nxtforum.org/asset-exchange-general/(ann)-lazytweeps-(asset-id-16353645177223876977)/"
 };
 // assets[10] = {};
 assets[11] = {
     id:"17911762572811467637",  decimals:4, name:"NXTprivacy",
-    balance1:241485, balance2:0, balance3:0,
     website:"https://nxtforum.org/nxtventures/nxtprivacy-asset-that-includes-privacy-related-projects/"
 };
 assets[12] = {
     id:"17571711292785902558",  decimals:0, name:"NXTcoinsco",
-    balance1:241485, balance2:0, balance3:0,
     website:"https://nxtforum.org/nxtventures/nxtcoinsco-nodecoin-svmcoin-and-more-coins/"
 };
 assets[13] = {
     id:"3006420581923704757",  decimals:4, name:"sharkfund0",
-    balance1:358, balance2:0, balance3:0,
     website:"https://nxtforum.org/nxtventures/shark-report-sharktales-and-other-musings/"
 };
 // assets[13] = {};
@@ -226,22 +214,18 @@ assets[13] = {
 // assets[15] = {};
 assets[90] = {
     id:"7441230892853180965",  decimals:4, name:"Omnigames",
-    balance1:75000, balance2:400000, balance3:0,
     website:"https://nxtforum.org/nxtventures/omnigames-asset/"
 };
 assets[91] = {
     id:"8217222248380501882",  decimals:4, name:"SpaceMesh",
-    balance1:108615, balance2:241485, balance3:0,
     website:"https://nxtforum.org/nxtservices-releases/spacemesh-org-and-supermesh-io-asset/"
 };
 assets[92] = {
     id:"15113552914305929842",  decimals:0, name:"SNN",
-    balance1:75000, balance2:600000, balance3:0,
 };
 // assets[93] = {};
 assets[100] = {
     id:"12659653638116877017",  decimals:8, name:"superBTC",
-    balance1:11, balance2:0, balance3:0,
     website:"https://www.bitcoin.org/"
 };
 // assets[101] = {};
