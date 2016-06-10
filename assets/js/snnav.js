@@ -19,8 +19,20 @@ function getnxtserver(){
               timeout: 30000,
               success: function (nxtPeersResult) {
 							         totalPeerIP = nxtPeersResult.peers.length;
+
+                       // console.log(nxtPeersResult.peers);
+                       // Remove non reliable peers
+                       // =========================
+                       for (var i = 0; i < totalPeerIP; i++) {
+                         if (nxtPeersResult.peers[i] == "178.150.207.53") {
+                           nxtPeersResult.peers.splice(i,1)
+                         }
+                       }
+
                        var random = Math.floor((Math.random() * (nxtPeersResult.peers.length - 1)) + 0);
                        urlNXT = "http://" + nxtPeersResult.peers[random] + ":7876/nxt";
+                       console.log(nxtPeersResult.peers);
+
               },
         });
     }
@@ -117,8 +129,6 @@ var iota_btc = getratio('iota_btc');
 if (!isNumeric(iota_btc)) {
     iota_btc = 0.000000004 / btc_usd;
 }
-console.log(nxt_btc);
-
 
 function getassets (account,asset){
       var output = null;
@@ -376,9 +386,6 @@ bitsbtc = (bitsbtcbalance).toMoney(1, '.', ',');
 fibrebtc = (fibrebtcbalance).toMoney(1, '.', ',');
 wavesbtc = (wavesbtcbalance).toMoney(1, '.', ',');
 iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
-
-console.log(wavesbtcbalance);
-console.log(wavesbtc);
 
 $('#totalnxt').html(totalnxt);
 $('#totalbtcd').html(totalbtcd);
