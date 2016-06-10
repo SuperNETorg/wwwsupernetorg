@@ -11,7 +11,7 @@ function getnxtserver(){
 
     $.ajax({
               type: 'GET',
-              url: 'snnav/node.php',
+              url: 'node.php',
               async: false,
               jsonpCallback: 'nxtpeers',
               contentType: "application/json",
