@@ -36,7 +36,8 @@ function getbalance(account){
 
 var urlNXT = '';
 getnxtserver();
-urlNXT = 'http://192.168.1.149:7876/nxt';
+// urlNXT = 'http://localhost:7876/nxt';
+// urlNXT = 'http://192.168.1.149:7876/nxt';
 console.log(urlNXT);
 
 var accountnxt1 = "NXT-MRBN-8DFH-PFMK-A4DBM";
