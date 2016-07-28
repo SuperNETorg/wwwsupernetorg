@@ -25,10 +25,10 @@ function getnxtserver(){
                        // =========================
                        for (var i = 0; i < totalPeerIP; i++) {
                          if (nxtPeersResult.peers[i] == "178.150.207.53") {
-                           nxtPeersResult.peers.splice(i,1)
+                           nxtPeersResult.peers.splice(i,1);
                          }
                          if (nxtPeersResult.peers[i] == "82.165.145.37") {
-                           nxtPeersResult.peers.splice(i,1)
+                           nxtPeersResult.peers.splice(i,1);
                          }
                        }
 
@@ -71,22 +71,26 @@ var nxtqty3 = getbalance(accountnxt3); //NXT-H8AL-VEG7-4FL5-G2L4W
 var nxtqty = nxtqty1 + nxtqty2 + nxtqty3;
 
 var btcdqty1 = 37479.1570; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
-var btcdqty2 = 2074.55789051; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
+var btcdqty2 = 2017.3967; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
 var btcdqty3 = 0; //NXT-MRBN-8DFH-PFMK-A4DBM - superBTCD
 var btcdqty4 = 574.5468; //NXT-MRBN-8DFH-PFMK-A4DBM - mgwBTCD
 var btcdqty = btcdqty1 + btcdqty2 + btcdqty3 + btcdqty4;
 
-var vrcqty = 2155509.23204082; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
-var vpnqty = 19050518.15875554; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
+var vrcqty = 2160215.4919; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
+var vpnqty = 19459962.9031; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 var bbrqty = 200000; //Poloniex
 var bitsqty = 1000000; //Poloniex
 var fibreqty = 31944.375367616; //5% of Fibre supply
 
 var wavesqty = 210778;
+var heatqty = 1000000; // ~ 4% of Heat
+var stratqty = 1864039; // ~2.3% od Stratis
+
 var iotaqty = 18058346; //tangle.ninja
 // Old IOTA to New IOTA coversion
 iotaqty = iotaqty * 2779530.28606;
+
 
 function getratio (ticker) {
   $.getJSON('http://api.cryptocoincharts.info/tradingPair/' + ticker, {}, function(request5) {
@@ -94,6 +98,66 @@ function getratio (ticker) {
   });
   return ratio;
 }
+
+
+function getpoloniex () {
+  var ticker = '';
+  $.getJSON('nav-poloniex.php', {}, function(json) {
+    // console.log(json);
+    ticker = json;
+  });
+  return ticker;
+}
+
+  var getpolo1 = getpoloniex();
+
+function getbittrex () {
+  var ticker = '';
+  $.getJSON('nav-bittrex.php', {}, function(json) {
+    // console.log(json);
+    ticker = json;
+  });
+  return ticker;
+}
+
+var getpolo = getpoloniex();
+var gettrex = getbittrex();
+
+function getprice (alt, polo, rex) {
+
+  var polopair = 'BTC_' + alt;
+  var poloticker = polo;
+  var poloprice = '';
+
+  if (poloticker[polopair]) {
+    poloprice = poloticker[polopair].last;
+  }
+
+  var trexpair = 'BTC-' + alt;
+  var trexticker = rex;
+  var trexprice = '';
+
+  for (var key in trexticker.result) {
+
+    if (trexticker.result[key].MarketName == trexpair) {
+        trexprice = trexticker.result[key].Last;
+    }
+  }
+
+  // Polo price first
+  var price = poloprice;
+
+  // Fallback to Bittrex
+  if (!isNumeric(price)) {
+    price = trexprice;
+  }
+
+  console.log(alt + ' - Polo: ' + poloprice + ' Rex: ' + trexprice);
+
+  return price;
+
+}
+
 
 function getassetprice(assetid,decimals) {
     var priceNQT = 0;
@@ -110,28 +174,32 @@ function getassetprice(assetid,decimals) {
 
 // Get Ticker Prices
 // ---------------------------
-var nxt_btc = getratio('nxt_btc');
-var btcd_btc = getratio('btcd_btc');
-var vrc_btc = getratio('vrc_btc');
-var vpn_btc = getratio('vpn_btc');
-var sys_btc = getratio('sys_btc');
-var bbr_btc = getratio('bbr_btc');
-var bits_btc = getratio('bits_btc');
-var fibre_btc = getratio('fibre_btc');
-
 var btc_usd = getratio('btc_usd');
 var btc_eur = getratio('btc_eur');
 
-
-var waves_btc = getratio('waves_btc');
-if (!isNumeric(waves_btc)) {
-    waves_btc = 0.000368634;
-}
-
-var iota_btc = getratio('iota_btc');
+var nxt_btc = getprice('NXT',getpolo,gettrex);
+var btcd_btc = getprice('BTCD',getpolo,gettrex);
+var sys_btc = getprice('SYS',getpolo,gettrex);
+var vrc_btc = getprice('VRC',getpolo,gettrex);
+var waves_btc = getprice('WAVES',getpolo,gettrex);
+var iota_btc = getprice('IOTA',getpolo,gettrex);
 if (!isNumeric(iota_btc)) {
-    iota_btc = 0.000000004 / btc_usd;
+  iota_btc = 0.000000004 / btc_usd; // Set conservative price floor
 }
+var heat_btc = getprice('HEAT',getpolo,gettrex);
+if (!isNumeric(heat_btc)) {
+  heat_btc = 0.0000466; // ICO price
+}
+var strat_btc = getprice('STRAT',getpolo,gettrex);
+if (!isNumeric(strat_btc)) {
+  strat_btc = 0.00001129; // ICO price
+}
+var vpn_btc = getprice('VPN',getpolo,gettrex);
+var bbr_btc = getprice('BBR',getpolo,gettrex);
+var bits_btc = getprice('BITS',getpolo,gettrex);
+var fibre_btc = getprice('FIBRE',getpolo,gettrex);
+
+
 
 function getassets (account,asset){
       var output = null;
@@ -356,6 +424,8 @@ var bitsbtcbalance = bits_btc * bitsqty;
 var fibrebtcbalance = fibre_btc * fibreqty;
 var wavesbtcbalance = waves_btc * wavesqty;
 var iotabtcbalance = iota_btc * iotaqty;
+var heatbtcbalance = heat_btc * heatqty;
+var stratbtcbalance = strat_btc * stratqty;
 
 
 var totalnxt = (nxtqty).toMoney(0, '.', ',');
@@ -368,6 +438,8 @@ var totalbits = (bitsqty).toMoney(0, '.', ',');
 var totalfibre = (fibreqty).toMoney(0, '.', ',');
 var totalwaves = (wavesqty).toMoney(0, '.', ',');
 var totaliota = (iotaqty).toMoney(0, '.', ',');
+var totalheat = (heatqty).toMoney(0, '.', ',');
+var totalstrat = (stratqty).toMoney(0, '.', ',');
 
 nxtbtc = (nxtbtcbalance).toMoney(1, '.', ',');
 btcdbtc = (btcdbtcbalance).toMoney(1, '.', ',');
@@ -379,6 +451,8 @@ bitsbtc = (bitsbtcbalance).toMoney(1, '.', ',');
 fibrebtc = (fibrebtcbalance).toMoney(1, '.', ',');
 wavesbtc = (wavesbtcbalance).toMoney(1, '.', ',');
 iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
+heatbtc = (heatbtcbalance).toMoney(1, '.', ',');
+stratbtc = (stratbtcbalance).toMoney(1, '.', ',');
 
 $('#totalnxt').html(totalnxt);
 $('#totalbtcd').html(totalbtcd);
@@ -390,6 +464,8 @@ $('#totalbits').html(totalbits);
 $('#totalfibre').html(totalfibre);
 $('#totalwaves').html(totalwaves);
 $('#totaliota').html(totaliota);
+$('#totalheat').html(totalheat);
+$('#totalstrat').html(totalstrat);
 
 $('#nxtbtcbalance').html(nxtbtc);
 $('#btcdbtcbalance').html(btcdbtc);
@@ -401,6 +477,8 @@ $('#bitsbtcbalance').html(bitsbtc);
 $('#fibrebtcbalance').html(fibrebtc);
 $('#wavesbtcbalance').html(wavesbtc);
 $('#iotabtcbalance').html(iotabtc);
+$('#heatbtcbalance').html(heatbtc);
+$('#stratbtcbalance').html(stratbtc);
 
 
 // Populate Coins Balance
@@ -422,10 +500,26 @@ $('#bitsbalance1').html(bitsqty.toMoney(0, ".", ","));
 $('#fibrebalance1').html(fibreqty.toMoney(0, ".", ","));
 $('#wavesbalance1').html(wavesqty.toMoney(0, ".", ","));
 $('#iotabalance1').html(iotaqty.toMoney(0, ".", ","));
+$('#heatbalance1').html(heatqty.toMoney(0, ".", ","));
+$('#stratbalance1').html(stratqty.toMoney(0, ".", ","));
 
 // Calculate NAV
 // ---------------------------
-var totalbtc = (nxtbtcbalance + btcdbtcbalance + vrcbtcbalance + vpnbtcbalance + sysbtcbalance + wavesbtcbalance + iotabtcbalance + bbrbtcbalance + bitsbtcbalance + fibrebtcbalance + assetstotalbtc);
+var totalbtc = (
+                nxtbtcbalance +
+                btcdbtcbalance +
+                sysbtcbalance +
+                vrcbtcbalance +
+                wavesbtcbalance +
+                iotabtcbalance +
+                heatbtcbalance +
+                stratbtcbalance +
+                vpnbtcbalance +
+                bbrbtcbalance +
+                bitsbtcbalance +
+                fibrebtcbalance +
+                assetstotalbtc
+              );
 
 var navbtc = totalbtc / 816061;
 var navnxt = navbtc / nxt_btc;

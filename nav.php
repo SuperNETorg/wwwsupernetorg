@@ -352,6 +352,77 @@
           </div><!--//container-->
             <div class="blog container blog-list core-coins">
 
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-10')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-heat-192.png" alt="Heat Ledger">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-10">
+                            <!-- Tooltip Content -->
+                            Website: <a href="http://heatledger.com/">Heatledger.com</a><br>
+                            Forum: <a href="https://bitcointalk.org/index.php?topic=1543991.0">Bitcointalk.org</a>
+                          </div>
+                      </div>
+                      <div class="content">
+                          <!-- <div class="post-entry">
+                          </div> -->
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">
+                                    <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-10')"><span class="amount" id="totalheat"></span></a> HEAT</h3>
+                                <p class="text-left"><span id="heatbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-10">
+                                  <!-- Tooltip Content -->
+                                  SuperNET owns ~ 4% of Heat Ledger<br>
+                                  <a href="http://heatledger.com/ico/">Heat Ledger ICO</a>
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-11')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-stratis-192.png" alt="Stratis Platform">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-11">
+                            <!-- Tooltip Content -->
+                            Website: <a href="http://stratisplatform.com/">Stratisplatform.com</a><br>
+                            Forum: <a href="https://bitcointalk.org/index.php?topic=1512202.0">Bitcointalk.org</a>
+                          </div>
+                      </div>
+                      <div class="content">
+                          <!-- <div class="post-entry">
+                          </div> -->
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">
+                                    <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-11')"><span class="amount" id="totalstrat"></span></a> STRAT</h3>
+                                <p class="text-left"><span id="stratbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-11">
+                                  <!-- Tooltip Content -->
+                                  SuperNET owns ~ 2.3%
+                                  of Stratis Platform<br>
+                                  <a href="http://stratisplatform.com/2016/07/27/stratis-ico-summary/">Stratis ICO summary</a>
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
             <article class="post small-post col-md-4 col-sm-6 col-xs-12">
                 <div class="post-inner">
                     <figure class="post-thumb">
@@ -378,8 +449,11 @@
                           <div style="display: none;">
                               <div id="coinbalance-info-9">
                                 <!-- Tooltip Content -->
-                                SuperNET owns ~
-                                <span id="vpnbalance1"></span> coins<br>
+                                Account: <a href="https://www.blockexperts.com/vpn/address/VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ"
+                                target="_blank">VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ</a>
+                                : <span id="vpnbalance1"></span> coins<br>
+                                <!-- SuperNET owns ~
+                                <span id="vpnbalance1"></span> coins<br> -->
                               </div>
                           </div>
                         </div><!--//meta-->
