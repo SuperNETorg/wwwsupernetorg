@@ -413,8 +413,9 @@
                             <div style="display: none;">
                                 <div id="coinbalance-info-11">
                                   <!-- Tooltip Content -->
-                                  SuperNET owns ~ 2.3%
-                                  of Stratis Platform<br>
+                                  Account: ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi<br>
+                                  SuperNET owns ~ 1.9%
+                                  of Stratis Platform tokens<br>
                                   <a href="http://stratisplatform.com/2016/07/27/stratis-ico-summary/">Stratis ICO summary</a>
                                 </div>
                             </div>

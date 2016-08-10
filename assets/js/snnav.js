@@ -85,7 +85,7 @@ var fibreqty = 31944.375367616; //5% of Fibre supply
 
 var wavesqty = 210778;
 var heatqty = 1000000; // ~ 4% of Heat
-var stratqty = 1864039; // ~2.3% od Stratis
+var stratqty = 1859105.23766988; // ~1.9% of Stratis 98M supply, ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
 
 var iotaqty = 18058346; //tangle.ninja
 // Old IOTA to New IOTA coversion
