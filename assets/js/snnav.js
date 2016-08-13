@@ -80,8 +80,6 @@ var vrcqty = 2160215.4919; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
 var vpnqty = 19459962.9031; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 var bbrqty = 200000; //Poloniex
-var bitsqty = 1000000; //Poloniex
-var fibreqty = 31944.375367616; //5% of Fibre supply
 
 var wavesqty = 210778;
 var heatqty = 1000000; // ~ 4% of Heat
@@ -196,8 +194,6 @@ if (!isNumeric(strat_btc)) {
 }
 var vpn_btc = getprice('VPN',getpolo,gettrex);
 var bbr_btc = getprice('BBR',getpolo,gettrex);
-var bits_btc = getprice('BITS',getpolo,gettrex);
-var fibre_btc = getprice('FIBRE',getpolo,gettrex);
 
 
 
@@ -420,8 +416,6 @@ var vrcbtcbalance = vrc_btc * vrcqty;
 var vpnbtcbalance = vpn_btc * vpnqty;
 var sysbtcbalance = sys_btc * sysqty;
 var bbrbtcbalance = bbr_btc * bbrqty;
-var bitsbtcbalance = bits_btc * bitsqty;
-var fibrebtcbalance = fibre_btc * fibreqty;
 var wavesbtcbalance = waves_btc * wavesqty;
 var iotabtcbalance = iota_btc * iotaqty;
 var heatbtcbalance = heat_btc * heatqty;
@@ -434,8 +428,6 @@ var totalsys = (sysqty).toMoney(0, '.', ',');
 var totalvrc = (vrcqty).toMoney(0, '.', ',');
 var totalvpn = (vpnqty).toMoney(0, '.', ',');
 var totalbbr = (bbrqty).toMoney(0, '.', ',');
-var totalbits = (bitsqty).toMoney(0, '.', ',');
-var totalfibre = (fibreqty).toMoney(0, '.', ',');
 var totalwaves = (wavesqty).toMoney(0, '.', ',');
 var totaliota = (iotaqty).toMoney(0, '.', ',');
 var totalheat = (heatqty).toMoney(0, '.', ',');
@@ -447,8 +439,6 @@ sysbtc = (sysbtcbalance).toMoney(1, '.', ',');
 vrcbtc = (vrcbtcbalance).toMoney(1, '.', ',');
 vpnbtc = (vpnbtcbalance).toMoney(1, '.', ',');
 bbrbtc = (bbrbtcbalance).toMoney(1, '.', ',');
-bitsbtc = (bitsbtcbalance).toMoney(1, '.', ',');
-fibrebtc = (fibrebtcbalance).toMoney(1, '.', ',');
 wavesbtc = (wavesbtcbalance).toMoney(1, '.', ',');
 iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
 heatbtc = (heatbtcbalance).toMoney(1, '.', ',');
@@ -460,8 +450,6 @@ $('#totalsys').html(totalsys);
 $('#totalvrc').html(totalvrc);
 $('#totalvpn').html(totalvpn);
 $('#totalbbr').html(totalbbr);
-$('#totalbits').html(totalbits);
-$('#totalfibre').html(totalfibre);
 $('#totalwaves').html(totalwaves);
 $('#totaliota').html(totaliota);
 $('#totalheat').html(totalheat);
@@ -473,8 +461,6 @@ $('#sysbtcbalance').html(sysbtc);
 $('#vrcbtcbalance').html(vrcbtc);
 $('#vpnbtcbalance').html(vpnbtc);
 $('#bbrbtcbalance').html(bbrbtc);
-$('#bitsbtcbalance').html(bitsbtc);
-$('#fibrebtcbalance').html(fibrebtc);
 $('#wavesbtcbalance').html(wavesbtc);
 $('#iotabtcbalance').html(iotabtc);
 $('#heatbtcbalance').html(heatbtc);
@@ -496,8 +482,6 @@ $('#sysbalance1').html(sysqty.toMoney(0, ".", ","));
 $('#vrcbalance1').html(vrcqty.toMoney(0, ".", ","));
 $('#vpnbalance1').html(vpnqty.toMoney(0, ".", ","));
 $('#bbrbalance1').html(bbrqty.toMoney(0, ".", ","));
-$('#bitsbalance1').html(bitsqty.toMoney(0, ".", ","));
-$('#fibrebalance1').html(fibreqty.toMoney(0, ".", ","));
 $('#wavesbalance1').html(wavesqty.toMoney(0, ".", ","));
 $('#iotabalance1').html(iotaqty.toMoney(0, ".", ","));
 $('#heatbalance1').html(heatqty.toMoney(0, ".", ","));
@@ -516,8 +500,6 @@ var totalbtc = (
                 stratbtcbalance +
                 vpnbtcbalance +
                 bbrbtcbalance +
-                bitsbtcbalance +
-                fibrebtcbalance +
                 assetstotalbtc
               );
 
