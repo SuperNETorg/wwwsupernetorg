@@ -330,16 +330,14 @@
                         <div class="meta">
                             <div class="meta-list list-inline">
                               <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> IOTA</h3>
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> Gi</h3>
                               <p class="text-center"><span id="iotabtcbalance"></span> BTC</p>
                           </div><!--//meta-list-->
                           <div style="display: none;">
                               <div id="coinbalance-info-8">
                                 <!-- Tooltip Content -->
-                                Account: <a href="https://tangle.ninja/address/OZSHBYNQLLKOUDQMZRHMYZQFC9JPXIWNITEOMX9NBDWBBIIWDPBHAZTCQBTOSAYION9RMUIXMIYGZVNXF"
-                                target="_blank">OZSHBYNQLLKOUDQMZ...UIXMIYGZVNXF</a>
-                                : <span id="iotabalance1"></span> coins<br>
-                                ( 18,058,346 crowdsale IOTA assets )
+                                SuperNET owns:
+                                <span id="iotabalance1"></span> Gi<br>
                               </div>
                           </div>
                         </div><!--//meta-->
@@ -462,41 +460,6 @@
                 </div><!--//post-inner-->
             </article>
 
-            <article class="post small-post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-5')">
-                            <img class="img-responsive" src="assets/images/coin-logos/logo-bbr-192.png" alt="BBR">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-5">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://boolberry.com/">Boolberry.com</a><br>
-                          Forum: <a href="https://bitcointalk.org/index.php?topic=577267.0">Bitcointalk.org</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <!-- <div class="post-entry">
-                        </div> -->
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-left">
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-5')"><span class="amount" id="totalbbr"></span></a> BBR</h3>
-                              <p class="text-left"><span id="bbrbtcbalance"></span> BTC</p>
-                          </div><!--//meta-list-->
-                          <div style="display: none;">
-                              <div id="coinbalance-info-5">
-                                <!-- Tooltip Content -->
-                                SuperNET owns ~
-                                <span id="bbrbalance1"></span> coins<br>
-                              </div>
-                          </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
-
         </div><!--//container-->
 
 
@@ -541,7 +504,7 @@
 
             <div class="row">
               <p class="disclaimer">
-                Price feed for NAV calculation provided by <a href="http://www.cryptocoincharts.info">cryptocoincharts.info</a>.<br>
+                Price feed for NAV calculation provided by Poloniex.com, BitTrex.com and OTC markets.<br>
                 Assets value calculated from last traded price on decentralized NXT Asset Exchange.
               </p>
             </div>

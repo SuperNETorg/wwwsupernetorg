@@ -79,15 +79,12 @@ var btcdqty = btcdqty1 + btcdqty2 + btcdqty3 + btcdqty4;
 var vrcqty = 2160215.4919; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
 var vpnqty = 19459962.9031; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
-var bbrqty = 200000; //Poloniex
 
-var wavesqty = 210778;
-var heatqty = 1000000; // ~ 4% of Heat
-var stratqty = 1859105.23766988; // ~1.9% of Stratis 98M supply, ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
+var wavesqty = 700000;
+var heatqty = 1400000; // ~ 4% of Heat
+var stratqty = 2000000; // ~2% of Stratis, ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
 
-var iotaqty = 18058346; //tangle.ninja
-// Old IOTA to New IOTA coversion
-iotaqty = iotaqty * 2779530.28606;
+var iotaqty = 46600; //Gi //tangle.ninja
 
 
 function getratio (ticker) {
@@ -180,21 +177,15 @@ var btcd_btc = getprice('BTCD',getpolo,gettrex);
 var sys_btc = getprice('SYS',getpolo,gettrex);
 var vrc_btc = getprice('VRC',getpolo,gettrex);
 var waves_btc = getprice('WAVES',getpolo,gettrex);
-var iota_btc = getprice('IOTA',getpolo,gettrex);
-if (!isNumeric(iota_btc)) {
-  iota_btc = 0.000000004 / btc_usd; // Set conservative price floor
-}
+var strat_btc = getprice('STRAT',getpolo,gettrex);
+var vpn_btc = getprice('VPN',getpolo,gettrex);
+
+var iota_btc = 0.012; // Manual OTC price of Gi
+
 var heat_btc = getprice('HEAT',getpolo,gettrex);
 if (!isNumeric(heat_btc)) {
-  heat_btc = 0.0000466; // ICO price
+  heat_btc = 0.000071429; // ICO price
 }
-var strat_btc = getprice('STRAT',getpolo,gettrex);
-if (!isNumeric(strat_btc)) {
-  strat_btc = 0.00001129; // ICO price
-}
-var vpn_btc = getprice('VPN',getpolo,gettrex);
-var bbr_btc = getprice('BBR',getpolo,gettrex);
-
 
 
 function getassets (account,asset){
@@ -415,7 +406,6 @@ var btcdbtcbalance = btcd_btc * btcdqty;
 var vrcbtcbalance = vrc_btc * vrcqty;
 var vpnbtcbalance = vpn_btc * vpnqty;
 var sysbtcbalance = sys_btc * sysqty;
-var bbrbtcbalance = bbr_btc * bbrqty;
 var wavesbtcbalance = waves_btc * wavesqty;
 var iotabtcbalance = iota_btc * iotaqty;
 var heatbtcbalance = heat_btc * heatqty;
@@ -427,7 +417,6 @@ var totalbtcd = (btcdqty).toMoney(0, '.', ',');
 var totalsys = (sysqty).toMoney(0, '.', ',');
 var totalvrc = (vrcqty).toMoney(0, '.', ',');
 var totalvpn = (vpnqty).toMoney(0, '.', ',');
-var totalbbr = (bbrqty).toMoney(0, '.', ',');
 var totalwaves = (wavesqty).toMoney(0, '.', ',');
 var totaliota = (iotaqty).toMoney(0, '.', ',');
 var totalheat = (heatqty).toMoney(0, '.', ',');
@@ -438,7 +427,6 @@ btcdbtc = (btcdbtcbalance).toMoney(1, '.', ',');
 sysbtc = (sysbtcbalance).toMoney(1, '.', ',');
 vrcbtc = (vrcbtcbalance).toMoney(1, '.', ',');
 vpnbtc = (vpnbtcbalance).toMoney(1, '.', ',');
-bbrbtc = (bbrbtcbalance).toMoney(1, '.', ',');
 wavesbtc = (wavesbtcbalance).toMoney(1, '.', ',');
 iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
 heatbtc = (heatbtcbalance).toMoney(1, '.', ',');
@@ -449,7 +437,6 @@ $('#totalbtcd').html(totalbtcd);
 $('#totalsys').html(totalsys);
 $('#totalvrc').html(totalvrc);
 $('#totalvpn').html(totalvpn);
-$('#totalbbr').html(totalbbr);
 $('#totalwaves').html(totalwaves);
 $('#totaliota').html(totaliota);
 $('#totalheat').html(totalheat);
@@ -460,7 +447,6 @@ $('#btcdbtcbalance').html(btcdbtc);
 $('#sysbtcbalance').html(sysbtc);
 $('#vrcbtcbalance').html(vrcbtc);
 $('#vpnbtcbalance').html(vpnbtc);
-$('#bbrbtcbalance').html(bbrbtc);
 $('#wavesbtcbalance').html(wavesbtc);
 $('#iotabtcbalance').html(iotabtc);
 $('#heatbtcbalance').html(heatbtc);
@@ -481,7 +467,6 @@ $('#btcdbalance4').html(btcdqty4.toMoney(0, ".", ","));
 $('#sysbalance1').html(sysqty.toMoney(0, ".", ","));
 $('#vrcbalance1').html(vrcqty.toMoney(0, ".", ","));
 $('#vpnbalance1').html(vpnqty.toMoney(0, ".", ","));
-$('#bbrbalance1').html(bbrqty.toMoney(0, ".", ","));
 $('#wavesbalance1').html(wavesqty.toMoney(0, ".", ","));
 $('#iotabalance1').html(iotaqty.toMoney(0, ".", ","));
 $('#heatbalance1').html(heatqty.toMoney(0, ".", ","));
@@ -499,7 +484,6 @@ var totalbtc = (
                 heatbtcbalance +
                 stratbtcbalance +
                 vpnbtcbalance +
-                bbrbtcbalance +
                 assetstotalbtc
               );
 
