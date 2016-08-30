@@ -70,11 +70,12 @@ var nxtqty2 = getbalance(accountnxt2); //NXT-USU4-92UY-KEYT-4H649
 var nxtqty3 = getbalance(accountnxt3); //NXT-H8AL-VEG7-4FL5-G2L4W
 var nxtqty = nxtqty1 + nxtqty2 + nxtqty3;
 
-var btcdqty1 = 37479.1570; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
-var btcdqty2 = 2017.3967; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
+var btcdqty1 = 37828; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
+var btcdqty2 = 2031; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
 var btcdqty3 = 0; //NXT-MRBN-8DFH-PFMK-A4DBM - superBTCD
 var btcdqty4 = 574.5468; //NXT-MRBN-8DFH-PFMK-A4DBM - mgwBTCD
-var btcdqty = btcdqty1 + btcdqty2 + btcdqty3 + btcdqty4;
+var btcdqty5 = 20000; //Latest increase
+var btcdqty = btcdqty1 + btcdqty2 + btcdqty3 + btcdqty4 + btcdqty5;
 
 var vrcqty = 2160215.4919; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
 var vpnqty = 19459962.9031; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
@@ -84,7 +85,7 @@ var wavesqty = 700000;
 var heatqty = 1400000; // ~ 4% of Heat
 var stratqty = 2000000; // ~2% of Stratis, ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
 
-var iotaqty = 46600; //Gi //tangle.ninja
+var iotaqty = 37600; //Gi //tangle.ninja
 
 
 function getratio (ticker) {
@@ -463,6 +464,7 @@ $('#btcdbalance1').html(btcdqty1.toMoney(0, ".", ","));
 $('#btcdbalance2').html(btcdqty2.toMoney(0, ".", ","));
 $('#btcdbalance3').html(btcdqty3.toMoney(0, ".", ","));
 $('#btcdbalance4').html(btcdqty4.toMoney(0, ".", ","));
+$('#btcdbalance5').html(btcdqty5.toMoney(0, ".", ","));
 
 $('#sysbalance1').html(sysqty.toMoney(0, ".", ","));
 $('#vrcbalance1').html(vrcqty.toMoney(0, ".", ","));

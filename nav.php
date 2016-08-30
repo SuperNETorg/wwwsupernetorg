@@ -188,9 +188,11 @@
                                     Account: <a href="http://explorebtcd.info/address/RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d" target="_blank">RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d</a>
                                     : <span id="btcdbalance2"></span> coins<br>
                                     Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                    : <span id="btcdbalance3"></span> coins<br>
+                                    : <span id="btcdbalance3"></span> coins (superBTCD)<br>
                                     Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                    : <span id="btcdbalance4"></span> coins<br>
+                                    : <span id="btcdbalance4"></span> coins (mgwBTCD)<br>
+                                    Latest increase
+                                    : <span id="btcdbalance5"></span> coins<br>
                                   </div>
                               </div>
                         </div><!--//meta-->
