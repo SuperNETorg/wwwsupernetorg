@@ -70,15 +70,15 @@ var nxtqty2 = getbalance(accountnxt2); //NXT-USU4-92UY-KEYT-4H649
 var nxtqty3 = getbalance(accountnxt3); //NXT-H8AL-VEG7-4FL5-G2L4W
 var nxtqty = nxtqty1 + nxtqty2 + nxtqty3;
 
-var btcdqty1 = 37828; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
-var btcdqty2 = 2031; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
+var btcdqty1 = 37986; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
+var btcdqty2 = 2040; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
 var btcdqty3 = 0; //NXT-MRBN-8DFH-PFMK-A4DBM - superBTCD
 var btcdqty4 = 574.5468; //NXT-MRBN-8DFH-PFMK-A4DBM - mgwBTCD
 var btcdqty5 = 20000; //Latest increase
 var btcdqty = btcdqty1 + btcdqty2 + btcdqty3 + btcdqty4 + btcdqty5;
 
-var vrcqty = 2160215.4919; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
-var vpnqty = 19459962.9031; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
+var vrcqty = 2172993.7055; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
+var vpnqty = 19884231.2655; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 
 var wavesqty = 700000;
@@ -272,9 +272,13 @@ assets[14] = {
     id:"6932037131189568014",  decimals:0, name:"JL777hodl",
     website:"https://nxtforum.org/nxtventures/(official)-jlh-jl777hodl-description-news/"
 };
+assets[15] = {
+    id:"12422608354438203866",  decimals:4, name:"ARDR",
+    website:"https://www.ardorplatform.org"
+};
 //
 //
-// assets[15] = {};
+// assets[50] = {};
 //
 //
 assets[90] = {
