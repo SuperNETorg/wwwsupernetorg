@@ -8,10 +8,10 @@
         $title      = "SuperNET",
         $wp = false
     ) {
-        
+
     // Server root
     $sprnt = "http://" . $_SERVER['SERVER_NAME'] . str_replace($_SERVER['DOCUMENT_ROOT'], '', str_replace("/blog", '', dirname($_SERVER['SCRIPT_FILENAME'])));
-    
+
     // Relative root
     $root = "";
 
@@ -20,9 +20,9 @@
     }
 
 ?><!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <?php if ($wp == false) { ?>
     <title><?= $title ?></title>
@@ -33,7 +33,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
      <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?= $sprnt ?>/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?= $sprnt ?>/apple-touch-icon-60x60.png">
@@ -54,22 +54,22 @@
     <meta name="msapplication-TileImage" content="<?= $sprnt ?>/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'> 
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
-    <link rel="stylesheet" href="<?= $sprnt ?>/assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="<?= $sprnt ?>/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
     <link rel="stylesheet" href="<?= $sprnt ?>/assets/plugins/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="<?= $sprnt ?>/assets/plugins/flexslider/flexslider.css">
 <?php if ($tooltip == true) { ?>
-    <!-- Tooltip -->    
+    <!-- Tooltip -->
     <link type="text/css" rel="stylesheet" href="<?= $sprnt ?>/tooltip/tooltip.css" />
     <script type="text/javascript" src="<?= $sprnt ?>/tooltip/tooltip.js"></script>
 <?php } ?>
-    
+
     <link type="text/css" rel="stylesheet" href="<?= $sprnt ?>/assets/plugins/rrssb/css/rrssb.css" />
-    
+
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="<?= $sprnt ?>/assets/css/styles.css">
     <script src="<?= $sprnt ?>/lib/sweet-alert.min.js"></script>
@@ -79,22 +79,37 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-	
+
+
 <?php if ($wp == true) { ?>
     <!-- ****** WP_PHEAD ****** -->
 	 <?php  wp_head(); ?>
-	<!-- ****** WP_PHEAD ****** --> 
+	<!-- ****** WP_PHEAD ****** -->
 <?php } ?>
 
-</head> 
+</head>
 
-<body class="<?= $body_class ?>">   
+<body class="<?= $body_class ?>">
+
+  <div id="notif-bar" class="small">
+    <span class="fa fa-info-circle"></span> New website for SuperNET is in the progress. Coming soon.
+  </div>
+
+  <style media="screen">
+    #notif-bar {
+      background: #f89d29;
+      color: #fff;
+      position: relative;
+      text-align: right;
+      z-index: 100;
+      padding: .5rem 2rem;
+    }
+  </style>
 <?php if ($wrapper == true) { ?>
     <div class="upper-wrapper">
 <?php } ?>
-    <!-- ******HEADER****** --> 
-    <header id="header" class="header">  
+    <!-- ******HEADER****** -->
+    <header id="header" class="header">
         <div class="container">
             <h1 class="logo">
                 <a href="<?= $sprnt ?>/"><span class="text">SuperNET</span><span class="brand"></span></a>
@@ -105,6 +120,6 @@
             ?>
         </div><!--//container-->
     </header><!--//header-->
-<?php    
+<?php
 }
 ?>
