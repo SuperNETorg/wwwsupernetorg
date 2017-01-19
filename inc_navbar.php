@@ -22,7 +22,7 @@
                     <ul class="nav navbar-nav">
                         <li class="<?=$nav["home"];?> nav-item"><a href="<?= $sprnt ?>/index.php">Home</a></li>
                         <li class="<?=$nav["about"];?> nav-item"><a href="<?= $sprnt ?>/about.php">About</a></li>
-                        <li class="<?=$nav["features"];?> nav-item"><a href="<?= $sprnt ?>/features.php">Features</a></li>
+                        <!-- <li class="<?=$nav["features"];?> nav-item"><a href="<?= $sprnt ?>/features.php">Features</a></li> -->
                         <li class="<?=$nav["download"];?> nav-item"><a href="<?= $sprnt ?>/download.php">Download</a></li>
                         <li class="<?=$nav["chat"];?> nav-item"><a href="<?= $sprnt ?>/chat.php">Chat</a></li>
 

@@ -105,12 +105,6 @@
                 </div><!--//item-->
 
 
-
-
-                <div class="feature-lead text-center">
-                    <h4 class="title">Want to discover all the features?</h4>
-                    <p><a class="btn btn-cta btn-cta-secondary" href="features.php">Take a Tour</a></p>
-                </div>
             </div><!--//container-->
         </section><!--//why-->
 
