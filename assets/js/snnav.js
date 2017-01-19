@@ -61,7 +61,6 @@ var accountnxt3 = "NXT-H8AL-VEG7-4FL5-G2L4W";
 var accountbtcd1 = "RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J";
 var accountbtcd2 = "RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d";
 var accountvrc = "VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2";
-var accountvpn = "VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ";
 var accountsys = "SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y";
 var accountiota = "OZSHBYNQLLKOUDQMZRHMYZQFC9JPXIWNITEOMX9NBDWBBIIWDPBHAZTCQBTOSAYION9RMUIXMIYGZVNXF";
 
@@ -71,21 +70,20 @@ var nxtqty3 = getbalance(accountnxt3); //NXT-H8AL-VEG7-4FL5-G2L4W
 var nxtqty = nxtqty1 + nxtqty2 + nxtqty3;
 
 var btcdqty1 = 37986; //RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J
-var btcdqty2 = 2040; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
+var btcdqty2 = 2071; //RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d
 var btcdqty3 = 0; //NXT-MRBN-8DFH-PFMK-A4DBM - superBTCD
 var btcdqty4 = 574.5468; //NXT-MRBN-8DFH-PFMK-A4DBM - mgwBTCD
 var btcdqty5 = 20000; //Latest increase
 var btcdqty = btcdqty1 + btcdqty2 + btcdqty3 + btcdqty4 + btcdqty5;
 
 var vrcqty = 2172993.7055; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
-var vpnqty = 19884231.2655; //VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 
 var wavesqty = 700000;
-var heatqty = 1400000; // ~ 4% of Heat
+var heatqty = 1500000; // ~ 4% of Heat
 var stratqty = 2000000; // ~2% of Stratis, ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
 
-var iotaqty = 37600; //Gi //tangle.ninja
+var iotaqty = 34600; //Gi //tangle.ninja
 
 
 function getratio (ticker) {
@@ -179,13 +177,12 @@ var sys_btc = getprice('SYS',getpolo,gettrex);
 var vrc_btc = getprice('VRC',getpolo,gettrex);
 var waves_btc = getprice('WAVES',getpolo,gettrex);
 var strat_btc = getprice('STRAT',getpolo,gettrex);
-var vpn_btc = getprice('VPN',getpolo,gettrex);
 
 var iota_btc = 0.012; // Manual OTC price of Gi
 
 var heat_btc = getprice('HEAT',getpolo,gettrex);
 if (!isNumeric(heat_btc)) {
-  heat_btc = 0.000071429; // ICO price
+  heat_btc = 0.00011; // ICO price
 }
 
 
@@ -409,7 +406,6 @@ for (var i in assets) {
 var nxtbtcbalance = nxt_btc * nxtqty; // totalsumnav
 var btcdbtcbalance = btcd_btc * btcdqty;
 var vrcbtcbalance = vrc_btc * vrcqty;
-var vpnbtcbalance = vpn_btc * vpnqty;
 var sysbtcbalance = sys_btc * sysqty;
 var wavesbtcbalance = waves_btc * wavesqty;
 var iotabtcbalance = iota_btc * iotaqty;
@@ -421,7 +417,6 @@ var totalnxt = (nxtqty).toMoney(0, '.', ',');
 var totalbtcd = (btcdqty).toMoney(0, '.', ',');
 var totalsys = (sysqty).toMoney(0, '.', ',');
 var totalvrc = (vrcqty).toMoney(0, '.', ',');
-var totalvpn = (vpnqty).toMoney(0, '.', ',');
 var totalwaves = (wavesqty).toMoney(0, '.', ',');
 var totaliota = (iotaqty).toMoney(0, '.', ',');
 var totalheat = (heatqty).toMoney(0, '.', ',');
@@ -431,7 +426,6 @@ nxtbtc = (nxtbtcbalance).toMoney(1, '.', ',');
 btcdbtc = (btcdbtcbalance).toMoney(1, '.', ',');
 sysbtc = (sysbtcbalance).toMoney(1, '.', ',');
 vrcbtc = (vrcbtcbalance).toMoney(1, '.', ',');
-vpnbtc = (vpnbtcbalance).toMoney(1, '.', ',');
 wavesbtc = (wavesbtcbalance).toMoney(1, '.', ',');
 iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
 heatbtc = (heatbtcbalance).toMoney(1, '.', ',');
@@ -441,7 +435,6 @@ $('#totalnxt').html(totalnxt);
 $('#totalbtcd').html(totalbtcd);
 $('#totalsys').html(totalsys);
 $('#totalvrc').html(totalvrc);
-$('#totalvpn').html(totalvpn);
 $('#totalwaves').html(totalwaves);
 $('#totaliota').html(totaliota);
 $('#totalheat').html(totalheat);
@@ -451,7 +444,6 @@ $('#nxtbtcbalance').html(nxtbtc);
 $('#btcdbtcbalance').html(btcdbtc);
 $('#sysbtcbalance').html(sysbtc);
 $('#vrcbtcbalance').html(vrcbtc);
-$('#vpnbtcbalance').html(vpnbtc);
 $('#wavesbtcbalance').html(wavesbtc);
 $('#iotabtcbalance').html(iotabtc);
 $('#heatbtcbalance').html(heatbtc);
@@ -472,7 +464,6 @@ $('#btcdbalance5').html(btcdqty5.toMoney(0, ".", ","));
 
 $('#sysbalance1').html(sysqty.toMoney(0, ".", ","));
 $('#vrcbalance1').html(vrcqty.toMoney(0, ".", ","));
-$('#vpnbalance1').html(vpnqty.toMoney(0, ".", ","));
 $('#wavesbalance1').html(wavesqty.toMoney(0, ".", ","));
 $('#iotabalance1').html(iotaqty.toMoney(0, ".", ","));
 $('#heatbalance1').html(heatqty.toMoney(0, ".", ","));
@@ -489,7 +480,6 @@ var totalbtc = (
                 iotabtcbalance +
                 heatbtcbalance +
                 stratbtcbalance +
-                vpnbtcbalance +
                 assetstotalbtc
               );
 

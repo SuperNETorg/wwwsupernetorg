@@ -378,6 +378,7 @@
                             <div style="display: none;">
                                 <div id="coinbalance-info-10">
                                   <!-- Tooltip Content -->
+                                  Account: 8034838408066485608<br>
                                   SuperNET owns ~ 4% of Heat Ledger<br>
                                   <a href="http://heatledger.com/ico/">Heat Ledger ICO</a>
                                 </div>
@@ -423,44 +424,6 @@
                       </div><!--//content-->
                   </div><!--//post-inner-->
               </article>
-
-            <article class="post small-post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-9')">
-                            <img class="img-responsive" src="assets/images/coin-logos/logo-vpn-192.png" alt="VPN">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-9">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://www.bitnet.pw/en_US/">Bitnet.pw</a><br>
-                          Forum: <a href="https://bitcointalk.org/index.php?topic=789961.0">Bitcointalk.org</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <!-- <div class="post-entry">
-                        </div> -->
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-left">
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-9')"><span class="amount" id="totalvpn"></span></a> VPN</h3>
-                              <p class="text-left"><span id="vpnbtcbalance"></span> BTC</p>
-                          </div><!--//meta-list-->
-                          <div style="display: none;">
-                              <div id="coinbalance-info-9">
-                                <!-- Tooltip Content -->
-                                Account: <a href="https://www.blockexperts.com/vpn/address/VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ"
-                                target="_blank">VdHevSrSsdFn5Mrbrf7xxM99uthTEhiEpJ</a>
-                                : <span id="vpnbalance1"></span> coins<br>
-                                <!-- SuperNET owns ~
-                                <span id="vpnbalance1"></span> coins<br> -->
-                              </div>
-                          </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
 
         </div><!--//container-->
 
