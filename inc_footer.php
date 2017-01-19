@@ -54,7 +54,6 @@
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/plugins/FitVids/jquery.fitvids.js"></script>
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/plugins/jquery.feeds.min.js"></script>
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/js/main.js"></script>
     <script type="text/javascript" data-cfasync="false" src="<?= $sprnt ?>/assets/js/pace.js"></script>
 

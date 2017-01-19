@@ -108,24 +108,6 @@
             </div><!--//container-->
         </section><!--//why-->
 
-        <!-- ******Latest blog posts Section****** -->
-        <section class="section testimonials">
-            <div class="container">
-                <h2 class="title text-center">Latest from our blog</h2>
-                <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#testimonials-carousel" data-slide-to="1" class=""></li>
-                        <li data-target="#testimonials-carousel" data-slide-to="2" class=""></li>
-                    </ol><!--//carousel-indicators-->
-                    <div id="feeds" class="carousel-inner">
-                    </div><!--//carousel-inner-->
-
-                </div><!--//carousel-->
-            </div><!--//container-->
-        </section>
-        <!--//latest blog posts-->
-
 
         <!-- ******Press Section****** -->
         <section class="section press">

@@ -110,44 +110,6 @@ $(document).ready(function() {
 	$('body section a[href^="http://' + host + '"]').attr('target','');
 	$('body section a[href^="https://' + host + '"]').attr('target','');
 
-	/* ======= Blog Feed ======= */
-	/* Ref: https://github.com/camagu/jquery-feeds */
-    $('#feeds').feeds({
-        feeds: {
-            feed1: 'http://www.supernet.org/blog/feed/'
-        },
-        max: 3,
-        preprocess: function(feed) {
-            // Change the publishedDate format from UTC to dd-mm-yyyy
-
-            // Inside the callback 'this' corresponds to the entry being processed
-            var date = new Date(this.publishedDate);
-            var pieces = [date.getDate(), date.getMonth(), date.getFullYear()]
-            this.publishedDate = pieces.join('-');
-
-        },
-        entryTemplate: function(entry) {
-
-            this.entries[0]["classA"] = "active";
-
-            var template =  '<div class="item <!=classA!>">' +
-                            '<div class="content">' +
-                            '<h4><a class="feed-entry-title" href="<!=link!>"><!=title!></a></h4>' +
-                            '<blockquote>' +
-                            '<i class="fa fa-quote-left"></i>' +
-                            '<p class="feed-entry-content"><!=contentSnippet!> '+
-                            '<a class="read-more" href="<!=link!>">read more</a></p>' +
-                            '</blockquote>' +
-                            // '<p class="source">' +
-                            // '<!=publishedDate!><span class="title"> by <!=author!></span><p>' +
-                            '</div>' +
-                            '</div>';
-
-            return this.tmpl(template, entry);
-        }
-    });
-
-
 
     /*
     decimal_sep: character used as deciaml separtor, it defaults to '.' when omitted
