@@ -92,7 +92,7 @@
 <body class="<?= $body_class ?>">
 
   <div id="notif-bar" class="small">
-    <span class="fa fa-info-circle"></span> New website for SuperNET is in the progress. Coming soon.
+    <span class="fa fa-info-circle"></span> Some of the content is outdated. New website coming soon.
   </div>
 
   <style media="screen">
