@@ -13,6 +13,5 @@ echo "<br>";
 
 echo "<br>";
 
-echo "<br>";
-
 // Dummy change
+echo "Dummy change";
