@@ -1,4 +1,5 @@
 <?php
+
     include("./inc_header.php");
 
      header1(
@@ -92,6 +93,10 @@
   .core-coins .small-post .content .post-title {
     font-size: 15px;
   }
+
+  #nav-header {
+    max-width: 970px;
+  }
   /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .core-coins .small-post .content {
@@ -108,7 +113,7 @@
 </script>
 
 
-<div class="intro text-center">
+<div id="nav-header" class="intro text-center">
   <h3>SuperNET (UNITY) Net Asset Value</h3>
   <br />
         <ul class="list-inline">
@@ -122,77 +127,69 @@
         <div class="blog container blog-list core-coins">
 
 
-            <article class="post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-0')">
-                            <img class="img-responsive" src="assets/images/coin-logos/logo-nxt-192.png" alt="NXT">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-0">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://nxt.org/">NXT.org</a><br>
-                          Forum: <a href="https://nxtforum.org/">Nxtforum.org</a><br>
 
+            <article class="post col-md-4 col-sm-6 col-xs-12">
+              <div class="post-inner">
+                  <figure class="post-thumb">
+                      <a href="#" onmouseover="tooltip.pop(this, '#coin-info-11')">
+                          <img class="img-responsive" src="assets/images/coin-logos/logo-stratis-192.png" alt="Stratis Platform">
+                      </a>
+                  </figure><!--//post-thumb-->
+                  <div style="display: none;">
+                      <div id="coin-info-11">
+                        <!-- Tooltip Content -->
+                        Website: <a href="http://stratisplatform.com/">Stratisplatform.com</a><br>
+                        Forum: <a href="https://bitcointalk.org/index.php?topic=1512202.0">Bitcointalk.org</a>
+                      </div>
+                  </div>
+                  <div class="content">
+                      <!-- <div class="post-entry">
+                      </div> -->
+                      <div class="meta">
+                          <div class="meta-list list-inline">
+                            <h3 class="post-title text-center">
+                                <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-11')"><span class="amount" id="totalstrat"></span></a> STRAT</h3>
+                            <p class="text-center"><span id="stratbtcbalance"></span> BTC</p>
+                        </div><!--//meta-list-->
+                        <div style="display: none;">
+                            <div id="coinbalance-info-11">
+                              <!-- Tooltip Content -->
+                              SuperNET owns ~ 1.9%
+                              of Stratis Platform tokens<br>
+                              <a href="http://stratisplatform.com/2016/07/27/stratis-ico-summary/">Stratis ICO summary</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="content">
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-center">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-0')"><span class="amount" id="totalnxt"></span></a> NXT</h3>
-                              <p class="text-center"><span id="nxtbtcbalance"></span> BTC</p>
-                        	</div><!--//meta-list-->
-                          <div style="display: none;">
-                              <div id="coinbalance-info-0">
-                                <!-- Tooltip Content -->
-                                Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                : <span id="nxtbalance1"></span> coins<br>
-                                Account: <a href="https://nxtportal.org/accounts/NXT-USU4-92UY-KEYT-4H649" target="_blank">NXT-USU4-92UY-KEYT-4H649</a>
-                                : <span id="nxtbalance2"></span> coins<br>
-                                Account: <a href="https://nxtportal.org/accounts/NXT-H8AL-VEG7-4FL5-G2L4W" target="_blank">NXT-H8AL-VEG7-4FL5-G2L4W</a>
-                                : <span id="nxtbalance3"></span> coins<br>
-                              </div>
-                          </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
+                      </div><!--//meta-->
+                  </div><!--//content-->
+              </div><!--//post-inner-->
+          </article>
 
             <article class="post col-md-4 col-sm-6 col-xs-12">
                 <div class="post-inner">
                     <figure class="post-thumb">
                         <a href="#" onmouseover="tooltip.pop(this, '#coin-info-1')">
-                          <img class="img-responsive" src="assets/images/coin-logos/logo-btcd-192.png" alt="BTCD">
+                          <img class="img-responsive" src="assets/images/coin-logos/logo-kmd-192.png" alt="KMD">
                         </a>
                     </figure><!--//post-thumb-->
                     <div style="display: none;">
                         <div id="coin-info-1">
                           <!-- Tooltip Content -->
-                          Website: <a href="http://bitcoindark.com/">BitcoinDark.com</a><br>
-                          Forum: <a href="https://bitcointalk.org/index.php?topic=684090.0">Bitcointalk.org</a><br>
+                          Website: <a href="http://komodoplatform.com/">Komodoplatform.com</a><br>
+                          Forum: <a href="https://bitcointalk.org/index.php?topic=1605144.0">Bitcointalk.org</a><br>
                         </div>
                     </div>
                     <div class="content">
                         <div class="meta">
                             <div class="meta-list list-inline">
                               <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-1')"><span class="amount" id="totalbtcd"></span></a> BTCD</h3>
-                              <p class="text-center"><span id="btcdbtcbalance"></span> BTC</p>
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-1')"><span class="amount" id="totalkmd"></span></a> KMD</h3>
+                              <p class="text-center"><span id="kmdbtcbalance"></span> BTC</p>
                           </div><!--//meta-list-->
                               <div style="display: none;">
                                   <div id="coinbalance-info-1">
                                     <!-- Tooltip Content -->
-                                    Account: <a href="http://explorebtcd.info/address/RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J" target="_blank">RA7FDvaNFXZNLqosSbCWFbypuvijJNQw5J</a>
-                                    : <span id="btcdbalance1"></span> coins<br>
-                                    Account: <a href="http://explorebtcd.info/address/RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d" target="_blank">RM5NNYdGee6X65aFGkyaRkYocSxQVNsB8d</a>
-                                    : <span id="btcdbalance2"></span> coins<br>
-                                    Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                    : <span id="btcdbalance3"></span> coins (superBTCD)<br>
-                                    Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                    : <span id="btcdbalance4"></span> coins (mgwBTCD)<br>
-                                    Latest increase
-                                    : <span id="btcdbalance5"></span> coins<br>
+                                    Swapped coins
+                                    : <span id="kmdbalance1"></span> coins<br>
                                   </div>
                               </div>
                         </div><!--//meta-->
@@ -235,45 +232,6 @@
                     </div><!--//content-->
                 </div><!--//post-inner-->
             </article>
-
-
-
-            <article class="post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-3')">
-                          <img class="img-responsive" src="assets/images/coin-logos/logo-vrc-192.png" alt="VRC">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-3">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://www.vericoin.info/">Vericoin.info</a><br>
-                          Forum: <a href="https://www.vericoinforums.com/">Vericoinforums.com</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <!-- <div class="post-entry">
-                        </div> -->
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-3')"><span class="amount" id="totalvrc"></span></a> VRC</h3>
-                              <p class="text-center"><span id="vrcbtcbalance"></span> BTC</p>
-                          </div><!--//meta-list-->
-                          <div style="display: none;">
-                              <div id="coinbalance-info-3">
-                                <!-- Tooltip Content -->
-                                Account: <a href="https://chainz.cryptoid.info/vrc/address.dws?VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2.htm"
-                                target="_blank">VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2</a>
-                                : <span id="vrcbalance1"></span> coins<br>
-                              </div>
-                          </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
-
 
             <article class="post col-md-4 col-sm-6 col-xs-12">
                 <div class="post-inner">
@@ -347,7 +305,41 @@
                 </div><!--//post-inner-->
             </article>
 
-
+            <article class="post col-md-4 col-sm-6 col-xs-12">
+                <div class="post-inner">
+                    <figure class="post-thumb">
+                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-3')">
+                          <img class="img-responsive" src="assets/images/coin-logos/logo-vrc-192.png" alt="VRC">
+                        </a>
+                    </figure><!--//post-thumb-->
+                    <div style="display: none;">
+                        <div id="coin-info-3">
+                          <!-- Tooltip Content -->
+                          Website: <a href="http://www.vericoin.info/">Vericoin.info</a><br>
+                          Forum: <a href="https://www.vericoinforums.com/">Vericoinforums.com</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <!-- <div class="post-entry">
+                        </div> -->
+                        <div class="meta">
+                            <div class="meta-list list-inline">
+                              <h3 class="post-title text-center">Total:
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-3')"><span class="amount" id="totalvrc"></span></a> VRC</h3>
+                              <p class="text-center"><span id="vrcbtcbalance"></span> BTC</p>
+                          </div><!--//meta-list-->
+                          <div style="display: none;">
+                              <div id="coinbalance-info-3">
+                                <!-- Tooltip Content -->
+                                Account: <a href="https://chainz.cryptoid.info/vrc/address.dws?VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2.htm"
+                                target="_blank">VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2</a>
+                                : <span id="vrcbalance1"></span> coins<br>
+                              </div>
+                          </div>
+                        </div><!--//meta-->
+                    </div><!--//content-->
+                </div><!--//post-inner-->
+            </article>
 
           </div><!--//container-->
             <div class="blog container blog-list core-coins">
@@ -378,9 +370,8 @@
                             <div style="display: none;">
                                 <div id="coinbalance-info-10">
                                   <!-- Tooltip Content -->
-                                  Account: 8034838408066485608<br>
-                                  SuperNET owns ~ 4% of Heat Ledger<br>
-                                  <a href="http://heatledger.com/ico/">Heat Ledger ICO</a>
+                                  Account: <a href="https://heatbrowser.com/report.html">8034838408066485608</a><br>
+                                  SuperNET owns ~ 4% of Heat Ledger
                                 </div>
                             </div>
                           </div><!--//meta-->
@@ -391,33 +382,70 @@
               <article class="post small-post col-md-4 col-sm-6 col-xs-12">
                   <div class="post-inner">
                       <figure class="post-thumb">
-                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-11')">
-                              <img class="img-responsive" src="assets/images/coin-logos/logo-stratis-192.png" alt="Stratis Platform">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-ardor')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-ardr-192.png" alt="ARDOR">
                           </a>
                       </figure><!--//post-thumb-->
                       <div style="display: none;">
-                          <div id="coin-info-11">
+                          <div id="coin-info-ardor">
                             <!-- Tooltip Content -->
-                            Website: <a href="http://stratisplatform.com/">Stratisplatform.com</a><br>
-                            Forum: <a href="https://bitcointalk.org/index.php?topic=1512202.0">Bitcointalk.org</a>
+                            Website: <a href="https://www.ardorplatform.org/">ardorplatform.org</a><br>
+                            Forum: <a href="https://nxtforum.org/">Nxtforum.org</a><br>
+
                           </div>
                       </div>
                       <div class="content">
-                          <!-- <div class="post-entry">
-                          </div> -->
                           <div class="meta">
                               <div class="meta-list list-inline">
-                                <h3 class="post-title text-left">
-                                    <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-11')"><span class="amount" id="totalstrat"></span></a> STRAT</h3>
-                                <p class="text-left"><span id="stratbtcbalance"></span> BTC</p>
+                                <h3 class="post-title text-left">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-ardor')"><span class="amount" id="totalardr"></span></a> NXT</h3>
+                                <p class="text-left"><span id="ardrbtcbalance"></span> BTC</p>
                             </div><!--//meta-list-->
                             <div style="display: none;">
-                                <div id="coinbalance-info-11">
+                                <div id="coinbalance-info-ardor">
                                   <!-- Tooltip Content -->
-                                  Account: ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi<br>
-                                  SuperNET owns ~ 1.9%
-                                  of Stratis Platform tokens<br>
-                                  <a href="http://stratisplatform.com/2016/07/27/stratis-ico-summary/">Stratis ICO summary</a>
+                                  Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
+                                  : <span id="ardrbalance1"></span> coins<br>
+                                  Account: <a href="https://nxtportal.org/accounts/NXT-USU4-92UY-KEYT-4H649" target="_blank">NXT-USU4-92UY-KEYT-4H649</a>
+                                  : <span id="ardrbalance2"></span> coins<br>
+                                  Account: <a href="https://nxtportal.org/accounts/NXT-H8AL-VEG7-4FL5-G2L4W" target="_blank">NXT-H8AL-VEG7-4FL5-G2L4W</a>
+                                  : <span id="ardrbalance3"></span> coins<br>
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-0')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-nxt-192.png" alt="NXT">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-0">
+                            <!-- Tooltip Content -->
+                            Website: <a href="http://nxt.org/">NXT.org</a><br>
+                            Forum: <a href="https://nxtforum.org/">Nxtforum.org</a><br>
+
+                          </div>
+                      </div>
+                      <div class="content">
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-nxt')"><span class="amount" id="totalnxt"></span></a> NXT</h3>
+                                <p class="text-left"><span id="nxtbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-nxt">
+                                  <!-- Tooltip Content -->
+                                  Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
+                                  : <span id="nxtbalance1"></span> coins<br>
+                                  Account: <a href="https://nxtportal.org/accounts/NXT-USU4-92UY-KEYT-4H649" target="_blank">NXT-USU4-92UY-KEYT-4H649</a>
+                                  : <span id="nxtbalance2"></span> coins<br>
+                                  Account: <a href="https://nxtportal.org/accounts/NXT-H8AL-VEG7-4FL5-G2L4W" target="_blank">NXT-H8AL-VEG7-4FL5-G2L4W</a>
+                                  : <span id="nxtbalance3"></span> coins<br>
                                 </div>
                             </div>
                           </div><!--//meta-->
@@ -469,7 +497,7 @@
 
             <div class="row">
               <p class="disclaimer">
-                Price feed for NAV calculation provided by Poloniex.com, BitTrex.com and OTC markets.<br>
+                Price feed for NAV calculation provided by Bitstamp.net Poloniex.com, BitTrex.com and OTC markets.<br>
                 Assets value calculated from last traded price on decentralized NXT Asset Exchange.
               </p>
             </div>
