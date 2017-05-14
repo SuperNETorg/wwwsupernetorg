@@ -27,6 +27,10 @@ foreach ($coins as $key => $value) {
   $polo[$value]["price"] = get_price($value,$json);
 }
 
+$polo["meta"] = [
+    "updated"   => date('d-m-Y h:i:s a', time()),
+];
+
 $fp = fopen('poloniex.json', 'w');
 fwrite($fp, json_encode($polo, JSON_PRETTY_PRINT));
 fclose($fp);

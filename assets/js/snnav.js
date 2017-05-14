@@ -15,12 +15,14 @@ function get_json(url) {
 
 var nxtdata = get_json("../../nav/nxt.json");
 var heatdata = get_json("../../nav/heat.json");
+var iotadata = get_json("../../nav/iota.json");
 var bitstamp = get_json("../../nav/bitstamp.json");
 var poloniex = get_json("../../nav/poloniex.json");
 var bittrex = get_json("../../nav/bittrex.json");
 
 // console.log(nxtdata);
 // console.log(heatdata);
+// console.log(iotadata);
 // console.log(bitstamp);
 // console.log(poloniex);
 // console.log(bittrex);
@@ -69,7 +71,7 @@ var kmd_btc = bittrex.KMD.price;
 
 var heat_btc = 1 / heatdata.heat.price; // Heat AE price
 
-var iota_btc = 0.025; // Manual OTC price of Gi
+var iota_btc = iotadata.iota.price / 1000 ; // Manual OTC price of Gi
 
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);

@@ -34,6 +34,10 @@ foreach ($coins as $key => $value) {
   $rex[$value]["price"] = get_price($value,$ticker);
 }
 
+$rex["meta"] = [
+    "updated"   => date('d-m-Y h:i:s a', time()),
+];
+
 $fp = fopen('bittrex.json', 'w');
 fwrite($fp, json_encode($rex, JSON_PRETTY_PRINT));
 fclose($fp);

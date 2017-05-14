@@ -28,6 +28,10 @@ foreach ($coins as $key => $value) {
   $cex[$value]["price"] = get_price($value);
 }
 
+$cex["meta"] = [
+    "updated"   => date('d-m-Y h:i:s a', time()),
+];
+
 $fp = fopen('bitstamp.json', 'w');
 fwrite($fp, json_encode($cex, JSON_PRETTY_PRINT));
 fclose($fp);
