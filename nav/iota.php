@@ -1,14 +1,10 @@
 <?php
 // function => fetch data from specific open API node
-function get_data($request) {
+function get_data() {
 
     $server = "http://data.iotaexchange.com/proxy";
-    $data = file_get_contents($server . $request);
+    $data = file_get_contents($server);
     $obj = json_decode($data);
-
-    $error = $obj->{'errorDescription'};
-    if ($error) exit($error);
-
     // $result = $obj->{$value};
     $result = $obj;
     return $result;
