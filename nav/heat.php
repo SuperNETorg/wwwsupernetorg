@@ -32,7 +32,7 @@ function get_price($currency, $asset) {
   // get last trades for currency/asset/from/to
   $request = '/api/v1/trade/' . $currency . '/' . $asset .  '/0/0';
   $response = get_data($request);
-  $price = $response[0]->{"price"};
+  $price = $response[0]->{"price"} / pow(10, 8);
   return $price;
 }
 

@@ -13,7 +13,7 @@ function get_data() {
 function get_price() {
   // get last trade
   $json = get_data();
-  $price = $json->{"trades"}[0]->{"price"};
+  $price = $json->{"trades"}[0]->{"price"} / 1000;
   return $price;
 }
 

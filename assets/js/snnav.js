@@ -69,9 +69,9 @@ var strat_btc = poloniex.STRAT.price;
 var waves_btc = bittrex.WAVES.price;
 var kmd_btc = bittrex.KMD.price;
 
-var heat_btc = 1 / heatdata.heat.price; // Heat AE price
+var heat_btc = heatdata.heat.price; // Heat AE price
 
-var iota_btc = iotadata.iota.price / 1000 ; // Manual OTC price of Gi
+var iota_btc = iotadata.iota.price; // Manual OTC price of Gi
 
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
