@@ -91,18 +91,6 @@ assets[2] = {
     id:"6883271355794806507",   name:"Pangea",
     website:"http://pangeapoker.net/"
 };
-assets[3] = {
-    id:"6854596569382794790",   name:"SkyNET",
-    website:"http://www.finhive.com/"
-};
-assets[4] = {
-    id:"8688289798928624137",   name:"Jay",
-    website:"http://jnxt.org/"
-};
-assets[5] = {
-    id:"2176003302076381931",   name:"MyNXT",
-    website:"https://www.mynxt.info/"
-};
 assets[6] = {
     id:"12071612744977229797",  name:"SuperNET",
     website:"http://www.supernet.org/"
@@ -114,10 +102,6 @@ assets[7] = {
 assets[8] = {
     id:"1976421459488798622",   name:"SNcoinv1",
     website:"https://nxtforum.org/assets-board/sncoinv1-supernet-silver-bullion-coin/"
-};
-assets[9] = {
-  id:"16353645177223876977",    name:"LazyTweeps",
-  website:"https://nxtforum.org/asset-exchange-general/(ann)-lazytweeps-(asset-id-16353645177223876977)/"
 };
 assets[11] = {
     id:"17911762572811467637",  name:"NXTprivacy",
@@ -135,20 +119,9 @@ assets[14] = {
     id:"6932037131189568014",   name:"JL777hodl",
     website:"https://nxtforum.org/nxtventures/(official)-jlh-jl777hodl-description-news/"
 };
-// assets[15] = {
-//     id:"12422608354438203866",  name:"ARDR",
-//     website:"https://www.ardorplatform.org"
-// };
-assets[90] = {
-    id:"7441230892853180965",  decimals:4, name:"Omnigames",
-    website:"https://nxtforum.org/nxtventures/omnigames-asset/"
-};
 assets[91] = {
     id:"8217222248380501882",  decimals:4, name:"SpaceMesh",
     website:"https://nxtforum.org/nxtservices-releases/spacemesh-org-and-supermesh-io-asset/"
-};
-assets[92] = {
-    id:"15113552914305929842",  decimals:0, name:"SNN",
 };
 assets[100] = {
     id:"12659653638116877017",  decimals:8, name:"superBTC",
@@ -256,7 +229,6 @@ for (var i in assets) {
   // Calculate Assets Total BTC
   assetstotalbtc = assetstotalbtc + assets[i].totalbtc;
 }
-
 
 var nxtbtcbalance = nxt_btc * nxtqty;
 var ardrbtcbalance = ardr_btc * ardrqty;
