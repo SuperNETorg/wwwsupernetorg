@@ -52,9 +52,10 @@ var vrcqty = 2199368; //VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2
 var sysqty = 20000000; //SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y
 var wavesqty = 700000;
 var heatqty = heatdata.heat.balance; // ~ 4% of all Heat
-var stratqty = 1400000; // ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
+var stratqty = 1300000; // ScBpQqL2fxiJPjnpQRoSBtatZxtPVVUgvi
 var iotaqty = 31000; //Gi //tangle.ninja
 var zecqty = 10000;
+var dcrqty = 20000;
 
 // Get Ticker Prices
 // ---------------------------
@@ -67,6 +68,7 @@ var sys_btc = poloniex.SYS.price;
 var vrc_btc = poloniex.VRC.price;
 var strat_btc = poloniex.STRAT.price;
 var zec_btc = poloniex.ZEC.price;
+var dcr_btc = poloniex.DCR.price;
 var waves_btc = bittrex.WAVES.price;
 var kmd_btc = bittrex.KMD.price;
 
@@ -241,6 +243,7 @@ var iotabtcbalance = iota_btc * iotaqty;
 var heatbtcbalance = heat_btc * heatqty;
 var stratbtcbalance = strat_btc * stratqty;
 var zecbtcbalance = zec_btc * zecqty;
+var dcrbtcbalance = dcr_btc * dcrqty;
 
 
 var totalnxt = (nxtqty).toMoney(0, '.', ',');
@@ -253,6 +256,7 @@ var totaliota = (iotaqty).toMoney(0, '.', ',');
 var totalheat = (heatqty).toMoney(0, '.', ',');
 var totalstrat = (stratqty).toMoney(0, '.', ',');
 var totalzec = (zecqty).toMoney(0, '.', ',');
+var totaldcr = (dcrqty).toMoney(0, '.', ',');
 
 nxtbtc = (nxtbtcbalance).toMoney(1, '.', ',');
 ardrbtc = (ardrbtcbalance).toMoney(1, '.', ',');
@@ -264,6 +268,7 @@ iotabtc = (iotabtcbalance).toMoney(1, '.', ',');
 heatbtc = (heatbtcbalance).toMoney(1, '.', ',');
 stratbtc = (stratbtcbalance).toMoney(1, '.', ',');
 zecbtc = (zecbtcbalance).toMoney(1, '.', ',');
+dcrbtc = (dcrbtcbalance).toMoney(1, '.', ',');
 
 $('#totalnxt').html(totalnxt);
 $('#totalardr').html(totalardr);
@@ -275,6 +280,7 @@ $('#totaliota').html(totaliota);
 $('#totalheat').html(totalheat);
 $('#totalstrat').html(totalstrat);
 $('#totalzec').html(totalzec);
+$('#totaldcr').html(totaldcr);
 
 $('#nxtbtcbalance').html(nxtbtc);
 $('#ardrbtcbalance').html(ardrbtc);
@@ -286,6 +292,7 @@ $('#iotabtcbalance').html(iotabtc);
 $('#heatbtcbalance').html(heatbtc);
 $('#stratbtcbalance').html(stratbtc);
 $('#zecbtcbalance').html(zecbtc);
+$('#dcrbtcbalance').html(dcrbtc);
 
 
 // Populate Coins Balance
@@ -306,6 +313,7 @@ $('#iotabalance1').html(iotaqty.toMoney(0, ".", ","));
 $('#heatbalance1').html(heatqty.toMoney(0, ".", ","));
 $('#stratbalance1').html(stratqty.toMoney(0, ".", ","));
 $('#zecbalance1').html(zecqty.toMoney(0, ".", ","));
+$('#dcrbalance1').html(dcrqty.toMoney(0, ".", ","));
 
 // Calculate NAV
 // ---------------------------
@@ -320,6 +328,7 @@ var totalbtc = (
                 heatbtcbalance +
                 stratbtcbalance +
                 zecbtcbalance +
+                dcrbtcbalance +
                 assetstotalbtc
               );
 

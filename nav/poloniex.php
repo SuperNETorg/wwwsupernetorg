@@ -21,7 +21,7 @@ function get_price($alt,$json) {
   return $price;
 }
 
-$coins = array(SYS,VRC,NXT,ARDR,STRAT,ZEC);
+$coins = array(SYS,VRC,NXT,ARDR,STRAT,ZEC,DCR);
 
 foreach ($coins as $key => $value) {
   $polo[$value]["price"] = get_price($value,$json);

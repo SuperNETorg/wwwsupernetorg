@@ -345,41 +345,73 @@
           </div><!--//container-->
             <div class="blog container blog-list core-coins">
 
-              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
-                  <div class="post-inner">
-                      <figure class="post-thumb">
-                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-10')">
-                              <img class="img-responsive" src="assets/images/coin-logos/logo-heat-192.png" alt="Heat Ledger">
-                          </a>
-                      </figure><!--//post-thumb-->
-                      <div style="display: none;">
-                          <div id="coin-info-10">
-                            <!-- Tooltip Content -->
-                            Website: <a href="http://heatledger.com/">Heatledger.com</a><br>
-                            Forum: <a href="https://bitcointalk.org/index.php?topic=1543991.0">Bitcointalk.org</a>
-                          </div>
+          <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+              <div class="post-inner">
+                  <figure class="post-thumb">
+                      <a href="#" onmouseover="tooltip.pop(this, '#coin-info-10')">
+                          <img class="img-responsive" src="assets/images/coin-logos/logo-heat-192.png" alt="Heat Ledger">
+                      </a>
+                  </figure><!--//post-thumb-->
+                  <div style="display: none;">
+                      <div id="coin-info-10">
+                        <!-- Tooltip Content -->
+                        Website: <a href="http://heatledger.com/">Heatledger.com</a><br>
+                        Forum: <a href="https://bitcointalk.org/index.php?topic=1543991.0">Bitcointalk.org</a>
                       </div>
-                      <div class="content">
-                          <!-- <div class="post-entry">
-                          </div> -->
-                          <div class="meta">
-                              <div class="meta-list list-inline">
-                                <h3 class="post-title text-left">
-                                    <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-10')"><span class="amount" id="totalheat"></span></a> HEAT</h3>
-                                <p class="text-left"><span id="heatbtcbalance"></span> BTC</p>
-                            </div><!--//meta-list-->
-                            <div style="display: none;">
-                                <div id="coinbalance-info-10">
-                                  <!-- Tooltip Content -->
-                                  Account: <a href="https://heatbrowser.com/report.html">8034838408066485608</a><br>
-                                  SuperNET owns ~ 4% of Heat Ledger
-                                </div>
+                  </div>
+                  <div class="content">
+                      <!-- <div class="post-entry">
+                      </div> -->
+                      <div class="meta">
+                          <div class="meta-list list-inline">
+                            <h3 class="post-title text-left">
+                                <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-10')"><span class="amount" id="totalheat"></span></a> HEAT</h3>
+                            <p class="text-left"><span id="heatbtcbalance"></span> BTC</p>
+                        </div><!--//meta-list-->
+                        <div style="display: none;">
+                            <div id="coinbalance-info-10">
+                              <!-- Tooltip Content -->
+                              Account: <a href="https://heatbrowser.com/report.html">8034838408066485608</a><br>
+                              SuperNET owns ~ 4% of Heat Ledger
                             </div>
-                          </div><!--//meta-->
-                      </div><!--//content-->
-                  </div><!--//post-inner-->
-              </article>
+                        </div>
+                      </div><!--//meta-->
+                  </div><!--//content-->
+              </div><!--//post-inner-->
+          </article>
 
+          <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+              <div class="post-inner">
+                  <figure class="post-thumb">
+                      <a href="#" onmouseover="tooltip.pop(this, '#coin-info-dcr')">
+                          <img class="img-responsive" src="assets/images/coin-logos/logo-dcr-192.png" alt="Decred">
+                      </a>
+                  </figure><!--//post-thumb-->
+                  <div style="display: none;">
+                      <div id="coin-info-dcr">
+                        <!-- Tooltip Content -->
+                        Website: <a href="https://decred.org/">decred.org</a><br>
+                        Forum: <a href="https://forum.decred.org/">forum.decred.org</a>
+                      </div>
+                  </div>
+                  <div class="content">
+                      <!-- <div class="post-entry">
+                      </div> -->
+                      <div class="meta">
+                          <div class="meta-list list-inline">
+                            <h3 class="post-title text-left">
+                                <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-dcr')"><span class="amount" id="totaldcr"></span></a> DCR</h3>
+                            <p class="text-left"><span id="dcrbtcbalance"></span> BTC</p>
+                        </div><!--//meta-list-->
+                        <div style="display: none;">
+                            <div id="coinbalance-info-dcr">
+                              <!-- Tooltip Content -->
+                            </div>
+                        </div>
+                      </div><!--//meta-->
+                  </div><!--//content-->
+              </div><!--//post-inner-->
+          </article>
 
               <article class="post small-post col-md-4 col-sm-6 col-xs-12">
                   <div class="post-inner">
