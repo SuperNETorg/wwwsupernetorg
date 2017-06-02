@@ -164,38 +164,78 @@
               </div><!--//post-inner-->
           </article>
 
-            <article class="post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-1')">
-                          <img class="img-responsive" src="assets/images/coin-logos/logo-kmd-192.png" alt="KMD">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-1">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://komodoplatform.com/">Komodoplatform.com</a><br>
-                          Forum: <a href="https://bitcointalk.org/index.php?topic=1605144.0">Bitcointalk.org</a><br>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-1')"><span class="amount" id="totalkmd"></span></a> KMD</h3>
-                              <p class="text-center"><span id="kmdbtcbalance"></span> BTC</p>
-                          </div><!--//meta-list-->
+
+                      <article class="post col-md-4 col-sm-6 col-xs-12">
+                          <div class="post-inner">
+                              <figure class="post-thumb">
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coin-info-8')">
+                                      <img class="img-responsive" src="assets/images/coin-logos/logo-iota-192.png" alt="IOTA">
+                                  </a>
+                              </figure><!--//post-thumb-->
                               <div style="display: none;">
-                                  <div id="coinbalance-info-1">
+                                  <div id="coin-info-8">
                                     <!-- Tooltip Content -->
-                                    Swapped coins
-                                    : <span id="kmdbalance1"></span> coins<br>
+                                    Website: <a href="http://www.iotatoken.com/">Iotatoken.com</a><br>
+                                    Forum: <a href="http://forum.iotatoken.com/">forum.iotatoken.com</a>
                                   </div>
                               </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
+                              <div class="content">
+                                  <!-- <div class="post-entry">
+                                  </div> -->
+                                  <div class="meta">
+                                      <div class="meta-list list-inline">
+                                        <h3 class="post-title text-center">Total:
+                                            <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> Gi</h3>
+                                        <p class="text-center"><span id="iotabtcbalance"></span> BTC</p>
+                                    </div><!--//meta-list-->
+                                    <div style="display: none;">
+                                        <div id="coinbalance-info-8">
+                                          <!-- Tooltip Content -->
+                                          SuperNET owns:
+                                          <span id="iotabalance1"></span> Gi<br>
+                                        </div>
+                                    </div>
+                                  </div><!--//meta-->
+                              </div><!--//content-->
+                          </div><!--//post-inner-->
+                      </article>
+
+
+                      <article class="post col-md-4 col-sm-6 col-xs-12">
+                          <div class="post-inner">
+                              <figure class="post-thumb">
+                                  <a href="#" onmouseover="tooltip.pop(this, '#coin-info-zec')">
+                                      <img class="img-responsive" src="assets/images/coin-logos/zcash-logo-192.png" alt="ZCASH">
+                                  </a>
+                              </figure><!--//post-thumb-->
+                              <div style="display: none;">
+                                  <div id="coin-info-zec">
+                                    <!-- Tooltip Content -->
+                                    Website: <a href="https://z.cash/">z.cash</a><br>
+                                    Forum: <a href="https://forum.z.cash/">forum.z.cash</a>
+                                  </div>
+                              </div>
+                              <div class="content">
+                                  <!-- <div class="post-entry">
+                                  </div> -->
+                                  <div class="meta">
+                                      <div class="meta-list list-inline">
+                                        <h3 class="post-title text-center">Total:
+                                            <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-zec')"><span class="amount" id="totalzec"></span></a> ZEC</h3>
+                                        <p class="text-center"><span id="zecbtcbalance"></span> BTC</p>
+                                    </div><!--//meta-list-->
+                                    <div style="display: none;">
+                                        <div id="coinbalance-info-zec">
+                                          <!-- Tooltip Content -->
+                                          SuperNET owns:
+                                          <span id="zecbalance1"></span> ZEC<br>
+                                        </div>
+                                    </div>
+                                  </div><!--//meta-->
+                              </div><!--//content-->
+                          </div><!--//post-inner-->
+                      </article>
+
 
             <article class="post col-md-4 col-sm-6 col-xs-12">
                 <div class="post-inner">
@@ -269,77 +309,38 @@
                 </div><!--//post-inner-->
             </article>
 
-
-            <article class="post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-8')">
-                            <img class="img-responsive" src="assets/images/coin-logos/logo-iota-192.png" alt="IOTA">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-8">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://www.iotatoken.com/">Iotatoken.com</a><br>
-                          Forum: <a href="http://forum.iotatoken.com/">forum.iotatoken.com</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <!-- <div class="post-entry">
-                        </div> -->
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> Gi</h3>
-                              <p class="text-center"><span id="iotabtcbalance"></span> BTC</p>
-                          </div><!--//meta-list-->
-                          <div style="display: none;">
-                              <div id="coinbalance-info-8">
-                                <!-- Tooltip Content -->
-                                SuperNET owns:
-                                <span id="iotabalance1"></span> Gi<br>
-                              </div>
-                          </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
-
-            <article class="post col-md-4 col-sm-6 col-xs-12">
-                <div class="post-inner">
-                    <figure class="post-thumb">
-                        <a href="#" onmouseover="tooltip.pop(this, '#coin-info-3')">
-                          <img class="img-responsive" src="assets/images/coin-logos/logo-vrc-192.png" alt="VRC">
-                        </a>
-                    </figure><!--//post-thumb-->
-                    <div style="display: none;">
-                        <div id="coin-info-3">
-                          <!-- Tooltip Content -->
-                          Website: <a href="http://www.vericoin.info/">Vericoin.info</a><br>
-                          Forum: <a href="https://www.vericoinforums.com/">Vericoinforums.com</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <!-- <div class="post-entry">
-                        </div> -->
-                        <div class="meta">
-                            <div class="meta-list list-inline">
-                              <h3 class="post-title text-center">Total:
-                                  <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-3')"><span class="amount" id="totalvrc"></span></a> VRC</h3>
-                              <p class="text-center"><span id="vrcbtcbalance"></span> BTC</p>
-                          </div><!--//meta-list-->
-                          <div style="display: none;">
-                              <div id="coinbalance-info-3">
-                                <!-- Tooltip Content -->
-                                Account: <a href="https://chainz.cryptoid.info/vrc/address.dws?VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2.htm"
-                                target="_blank">VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2</a>
-                                : <span id="vrcbalance1"></span> coins<br>
-                              </div>
-                          </div>
-                        </div><!--//meta-->
-                    </div><!--//content-->
-                </div><!--//post-inner-->
-            </article>
+          <article class="post col-md-4 col-sm-6 col-xs-12">
+              <div class="post-inner">
+                  <figure class="post-thumb">
+                      <a href="#" onmouseover="tooltip.pop(this, '#coin-info-1')">
+                        <img class="img-responsive" src="assets/images/coin-logos/logo-kmd-192.png" alt="KMD">
+                      </a>
+                  </figure><!--//post-thumb-->
+                  <div style="display: none;">
+                      <div id="coin-info-1">
+                        <!-- Tooltip Content -->
+                        Website: <a href="http://komodoplatform.com/">Komodoplatform.com</a><br>
+                        Forum: <a href="https://bitcointalk.org/index.php?topic=1605144.0">Bitcointalk.org</a><br>
+                      </div>
+                  </div>
+                  <div class="content">
+                      <div class="meta">
+                          <div class="meta-list list-inline">
+                            <h3 class="post-title text-center">Total:
+                                <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-1')"><span class="amount" id="totalkmd"></span></a> KMD</h3>
+                            <p class="text-center"><span id="kmdbtcbalance"></span> BTC</p>
+                        </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-1">
+                                  <!-- Tooltip Content -->
+                                  Swapped coins
+                                  : <span id="kmdbalance1"></span> coins<br>
+                                </div>
+                            </div>
+                      </div><!--//meta-->
+                  </div><!--//content-->
+              </div><!--//post-inner-->
+          </article>
 
           </div><!--//container-->
             <div class="blog container blog-list core-coins">
@@ -372,6 +373,43 @@
                                   <!-- Tooltip Content -->
                                   Account: <a href="https://heatbrowser.com/report.html">8034838408066485608</a><br>
                                   SuperNET owns ~ 4% of Heat Ledger
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-3')">
+                            <img class="img-responsive" src="assets/images/coin-logos/logo-vrc-192.png" alt="VRC">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-3">
+                            <!-- Tooltip Content -->
+                            Website: <a href="http://www.vericoin.info/">Vericoin.info</a><br>
+                            Forum: <a href="https://www.vericoinforums.com/">Vericoinforums.com</a>
+                          </div>
+                      </div>
+                      <div class="content">
+                          <!-- <div class="post-entry">
+                          </div> -->
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">Total:
+                                    <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-3')"><span class="amount" id="totalvrc"></span></a> VRC</h3>
+                                <p class="text-left"><span id="vrcbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-3">
+                                  <!-- Tooltip Content -->
+                                  Account: <a href="https://chainz.cryptoid.info/vrc/address.dws?VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2.htm"
+                                  target="_blank">VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2</a>
+                                  : <span id="vrcbalance1"></span> coins<br>
                                 </div>
                             </div>
                           </div><!--//meta-->
