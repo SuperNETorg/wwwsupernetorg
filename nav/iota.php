@@ -2,7 +2,7 @@
 // function => fetch data from specific open API node
 function get_data() {
 
-    $server = "http://data.iotaexchange.com/proxy";
+    $server = "https://api.bitfinex.com/v1/ticker/iotbtc";
     $data = file_get_contents($server);
     $obj = json_decode($data);
     // $result = $obj->{$value};
@@ -13,7 +13,7 @@ function get_data() {
 function get_price() {
   // get last trade
   $json = get_data();
-  $price = $json->{"trades"}[0]->{"price"} / 1000;
+  $price = $json->{"last_price"};
   return $price;
 }
 

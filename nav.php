@@ -185,14 +185,14 @@
                                   <div class="meta">
                                       <div class="meta-list list-inline">
                                         <h3 class="post-title text-center">Total:
-                                            <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> Gi</h3>
+                                            <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-8')"><span class="amount" id="totaliota"></span></a> Ti IOTA</h3>
                                         <p class="text-center"><span id="iotabtcbalance"></span> BTC</p>
                                     </div><!--//meta-list-->
                                     <div style="display: none;">
                                         <div id="coinbalance-info-8">
                                           <!-- Tooltip Content -->
                                           SuperNET owns:
-                                          <span id="iotabalance1"></span> Gi<br>
+                                          <span id="iotabalance1"></span> Ti tokens<br>
                                         </div>
                                     </div>
                                   </div><!--//meta-->
@@ -228,7 +228,7 @@
                                         <div id="coinbalance-info-zec">
                                           <!-- Tooltip Content -->
                                           SuperNET owns:
-                                          <span id="zecbalance1"></span> ZEC<br>
+                                          <span id="zecbalance1"></span> ZEC tokens<br>
                                         </div>
                                     </div>
                                   </div><!--//meta-->
@@ -265,7 +265,7 @@
                                 <!-- Tooltip Content -->
                                 Account: <a href="https://chainz.cryptoid.info/sys/address.dws?SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y.htm"
                                 target="_blank">SRhwEU1aQk2DPJSC6NTySTdCEtGpS7UF4Y</a>
-                                : <span id="sysbalance1"></span> coins<br>
+                                : <span id="sysbalance1"></span> SYS tokens<br>
                               </div>
                           </div>
                         </div><!--//meta-->
@@ -301,7 +301,7 @@
                                 <!-- Tooltip Content -->
                                 Account: <a href="https://ico.wavesplatform.com/"
                                 target="_blank">Waves ICO</a>
-                                : <span id="wavesbalance1"></span> coins<br>
+                                : <span id="wavesbalance1"></span> WAVES tokens<br>
                               </div>
                           </div>
                         </div><!--//meta-->
@@ -333,8 +333,8 @@
                             <div style="display: none;">
                                 <div id="coinbalance-info-1">
                                   <!-- Tooltip Content -->
-                                  Swapped coins
-                                  : <span id="kmdbalance1"></span> coins<br>
+                                  Swapped tokens
+                                  : <span id="kmdbalance1"></span> KMD tokens<br>
                                 </div>
                             </div>
                       </div><!--//meta-->
@@ -372,7 +372,7 @@
                             <div id="coinbalance-info-10">
                               <!-- Tooltip Content -->
                               Account: <a href="https://heatbrowser.com/report.html">8034838408066485608</a><br>
-                              SuperNET owns ~ 4% of Heat Ledger
+                              SuperNET owns ~ 4% of HEAT tokens supply
                             </div>
                         </div>
                       </div><!--//meta-->
@@ -406,6 +406,7 @@
                         <div style="display: none;">
                             <div id="coinbalance-info-dcr">
                               <!-- Tooltip Content -->
+                              SuperNET owns 20000 DCR tokens
                             </div>
                         </div>
                       </div><!--//meta-->
@@ -441,7 +442,7 @@
                                   <!-- Tooltip Content -->
                                   Account: <a href="https://chainz.cryptoid.info/vrc/address.dws?VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2.htm"
                                   target="_blank">VDAQoJHiANmBDBC94MqqLYXosUEZqfk1p2</a>
-                                  : <span id="vrcbalance1"></span> coins<br>
+                                  : <span id="vrcbalance1"></span> VRC tokens<br>
                                 </div>
                             </div>
                           </div><!--//meta-->
@@ -474,11 +475,139 @@
                                 <div id="coinbalance-info-ardor">
                                   <!-- Tooltip Content -->
                                   Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                  : <span id="ardrbalance1"></span> coins<br>
+                                  : <span id="ardrbalance1"></span> tokens<br>
                                   Account: <a href="https://nxtportal.org/accounts/NXT-USU4-92UY-KEYT-4H649" target="_blank">NXT-USU4-92UY-KEYT-4H649</a>
-                                  : <span id="ardrbalance2"></span> coins<br>
+                                  : <span id="ardrbalance2"></span> tokens<br>
                                   Account: <a href="https://nxtportal.org/accounts/NXT-H8AL-VEG7-4FL5-G2L4W" target="_blank">NXT-H8AL-VEG7-4FL5-G2L4W</a>
-                                  : <span id="ardrbalance3"></span> coins<br>
+                                  : <span id="ardrbalance3"></span> tokens<br>
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-ioc')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-ioc-192.png" alt="IOC">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-ioc">
+                            <!-- Tooltip Content -->
+                            Website: <a href="http://iocoin.io/">iocoin.io</a><br>
+                            Forum: <a href="https://bitcointalk.org/index.php?topic=695855.0">Bitcointalk.org</a><br>
+
+                          </div>
+                      </div>
+                      <div class="content">
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-ioc')"><span class="amount" id="totalioc"></span></a> IOC</h3>
+                                <p class="text-left"><span id="iocbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-ioc">
+                                  <!-- Tooltip Content -->
+                                    SuperNET owns ~ 1% of IOC tokens supply
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-qrl')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-qrl-192.png" alt="QRL">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-qrl">
+                            <!-- Tooltip Content -->
+                            Website: <a href="https://theqrl.org/">theqrl.org</a><br>
+                            Forum: <a href="https://bitcointalk.org/index.php?topic=1730273.0">Bitcointalk.org</a><br>
+
+                          </div>
+                      </div>
+                      <div class="content">
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-qrl')"><span class="amount" id="totalqrl"></span></a> QRL</h3>
+                                <p class="text-left"><span id="qrlbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-qrl">
+                                  <!-- Tooltip Content -->
+                                    SuperNET owns ~ 0.5% of QRL tokens supply
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-mgo')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-mgo-192.png" alt="MGO">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-mgo">
+                            <!-- Tooltip Content -->
+                            Website: <a href="https://mobilego.io/">mobilego.io</a><br>
+                            Forum: <a href="https://bitcointalk.org/index.php?topic=1792451.0">Bitcointalk.org</a><br>
+
+                          </div>
+                      </div>
+                      <div class="content">
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-mgo')"><span class="amount" id="totalmgo"></span></a> MGO</h3>
+                                <p class="text-left"><span id="mgobtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-mgo">
+                                  <!-- Tooltip Content -->
+                                  SuperNET owns 100000 MGO tokens
+                                </div>
+                            </div>
+                          </div><!--//meta-->
+                      </div><!--//content-->
+                  </div><!--//post-inner-->
+              </article>
+
+              <article class="post small-post col-md-4 col-sm-6 col-xs-12">
+                  <div class="post-inner">
+                      <figure class="post-thumb">
+                          <a href="#" onmouseover="tooltip.pop(this, '#coin-info-hush')">
+                              <img class="img-responsive" src="assets/images/coin-logos/logo-hush-192.png" alt="HUSH">
+                          </a>
+                      </figure><!--//post-thumb-->
+                      <div style="display: none;">
+                          <div id="coin-info-hush">
+                            <!-- Tooltip Content -->
+                            Website: <a href="https://myhush.org/"> myhush.org</a><br>
+                            Forum: <a href="https://bitcointalk.org/index.php?topic=1688024.0">Bitcointalk.org</a><br>
+
+                          </div>
+                      </div>
+                      <div class="content">
+                          <div class="meta">
+                              <div class="meta-list list-inline">
+                                <h3 class="post-title text-left">Total: <a href="#" onmouseover="tooltip.pop(this, '#coinbalance-info-hush')"><span class="amount" id="totalhush"></span></a> HUSH</h3>
+                                <p class="text-left"><span id="hushbtcbalance"></span> BTC</p>
+                            </div><!--//meta-list-->
+                            <div style="display: none;">
+                                <div id="coinbalance-info-hush">
+                                  <!-- Tooltip Content -->
+                                  SuperNET owns 100000 HUSH tokens
                                 </div>
                             </div>
                           </div><!--//meta-->
@@ -511,11 +640,11 @@
                                 <div id="coinbalance-info-nxt">
                                   <!-- Tooltip Content -->
                                   Account: <a href="https://nxtportal.org/accounts/NXT-MRBN-8DFH-PFMK-A4DBM" target="_blank">NXT-MRBN-8DFH-PFMK-A4DBM</a>
-                                  : <span id="nxtbalance1"></span> coins<br>
+                                  : <span id="nxtbalance1"></span> tokens<br>
                                   Account: <a href="https://nxtportal.org/accounts/NXT-USU4-92UY-KEYT-4H649" target="_blank">NXT-USU4-92UY-KEYT-4H649</a>
-                                  : <span id="nxtbalance2"></span> coins<br>
+                                  : <span id="nxtbalance2"></span> tokens<br>
                                   Account: <a href="https://nxtportal.org/accounts/NXT-H8AL-VEG7-4FL5-G2L4W" target="_blank">NXT-H8AL-VEG7-4FL5-G2L4W</a>
-                                  : <span id="nxtbalance3"></span> coins<br>
+                                  : <span id="nxtbalance3"></span> tokens<br>
                                 </div>
                             </div>
                           </div><!--//meta-->
@@ -552,7 +681,7 @@
                     </div>
                     <div class="asset-info">
                         <span>Total: <a href="#" onmouseover="tooltip.pop(this, '#shares-info-')">
-                                     <span class="amount shares"></span></a> shares</span><br>
+                                     <span class="amount shares"></span></a> tokens</span><br>
                         <span><span class="nxt"></span> NXT</span> &nbsp;
                         <span><span class="btc"></span> BTC</span>
                     </div>
@@ -567,7 +696,7 @@
 
             <div class="row">
               <p class="disclaimer">
-                Price feed for NAV calculation provided by Bitstamp.net Poloniex.com, BitTrex.com and OTC markets.<br>
+                Price feed for NAV calculation provided by Bitstamp.net, Bitfinex.com, Poloniex.com, BitTrex.com, Liqui.com and OTC markets.<br>
                 Assets value calculated from last traded price on decentralized NXT Asset Exchange.
               </p>
             </div>

@@ -28,7 +28,7 @@ function get_price($alt,$ticker) {
   return number_format($price,8,'.','');
 }
 
-$coins = array(SYS,VRC,NXT,ARDR,STRAT,KMD,WAVES,ZEC,DCR);
+$coins = array(SYS,VRC,NXT,ARDR,STRAT,KMD,WAVES,ZEC,DCR,IOC,QRL);
 
 foreach ($coins as $key => $value) {
   $rex[$value]["price"] = get_price($value,$ticker);

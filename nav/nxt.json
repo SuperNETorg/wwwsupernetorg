@@ -2,7 +2,7 @@
     "nxt": [
         {
             "accountRS": "NXT-MRBN-8DFH-PFMK-A4DBM",
-            "balance": 1217180
+            "balance": 68992
         },
         {
             "accountRS": "NXT-USU4-92UY-KEYT-4H649",
@@ -22,18 +22,23 @@
             },
             "12422608354438203866": {
                 "name": "ARDR",
-                "qty": 3569521.6091,
-                "lastprice": 1.3601
+                "qty": 3253781.9985,
+                "lastprice": 1.3299
+            },
+            "15569775248105265031": {
+                "name": "KMD",
+                "qty": 3000000,
+                "lastprice": 0
             },
             "17911762572811467637": {
                 "name": "NXTprivacy",
-                "qty": 241495,
-                "lastprice": 4.002
+                "qty": 242595,
+                "lastprice": 31.01
             },
             "6854596569382794790": {
                 "name": "SkyNET",
                 "qty": 114039.7567,
-                "lastprice": 1.01
+                "lastprice": 0.101
             },
             "8217222248380501882": {
                 "name": "SpaceMesh",
@@ -47,13 +52,13 @@
             },
             "12071612744977229797": {
                 "name": "SuperNET",
-                "qty": 19941.0386,
-                "lastprice": 151.0001
+                "qty": 23095.0947,
+                "lastprice": 158
             },
             "8501115346481349929": {
                 "name": "FIMventure",
-                "qty": 10000,
-                "lastprice": 2.011
+                "qty": 12278.3123,
+                "lastprice": 0.6699
             },
             "8688289798928624137": {
                 "name": "Jay",
@@ -63,37 +68,37 @@
             "13476425053110940554": {
                 "name": "crypto777",
                 "qty": 80934.582,
-                "lastprice": 200
+                "lastprice": 79
             },
             "13502152099823770958": {
                 "name": "SuperNETx2",
-                "qty": 2708.007,
-                "lastprice": 175
+                "qty": 2819.1221,
+                "lastprice": 200.001
             },
             "6883271355794806507": {
                 "name": "Pangea",
-                "qty": 647.6954,
-                "lastprice": 17
+                "qty": 1647.6954,
+                "lastprice": 10.1
             },
             "11060861818140490423": {
                 "name": "mgwBTCD",
                 "qty": 574.5468,
-                "lastprice": 2.51
+                "lastprice": 1.5
             },
             "3006420581923704757": {
                 "name": "sharkfund0",
-                "qty": 359.8839,
-                "lastprice": 23000
+                "qty": 363.3839,
+                "lastprice": 28000
             },
             "17571711292785902558": {
                 "name": "NXTcoinsco",
-                "qty": 246485,
-                "lastprice": 18
+                "qty": 259485,
+                "lastprice": 8.1
             },
             "15344649963748848799": {
                 "name": "InstantDEX",
                 "qty": 241485,
-                "lastprice": 35
+                "lastprice": 40
             },
             "15113552914305929842": {
                 "name": "SNN",
@@ -103,7 +108,7 @@
             "6932037131189568014": {
                 "name": "jl777hodl",
                 "qty": 70000,
-                "lastprice": 0.80001
+                "lastprice": 0.9
             },
             "2176003302076381931": {
                 "name": "MyNXT",
@@ -117,8 +122,8 @@
             },
             "15641806960898178066": {
                 "name": "TOKEN",
-                "qty": 72,
-                "lastprice": 10
+                "qty": 145,
+                "lastprice": 2
             }
         },
         "NXT-USU4-92UY-KEYT-4H649": {
@@ -130,7 +135,7 @@
             "6883271355794806507": {
                 "name": "Pangea",
                 "qty": 415125.8674,
-                "lastprice": 17
+                "lastprice": 10.1
             },
             "8688289798928624137": {
                 "name": "Jay",
@@ -150,17 +155,17 @@
             "6854596569382794790": {
                 "name": "SkyNET",
                 "qty": 214132.8273,
-                "lastprice": 1.01
+                "lastprice": 0.101
             },
             "12659653638116877017": {
                 "name": "superBTC",
                 "qty": 11,
-                "lastprice": 40000
+                "lastprice": 10000
             },
             "12071612744977229797": {
                 "name": "SuperNET",
                 "qty": 105376.9874,
-                "lastprice": 151.0001
+                "lastprice": 158
             },
             "16353645177223876977": {
                 "name": "LazyTweeps",
@@ -170,17 +175,17 @@
             "12422608354438203866": {
                 "name": "ARDR",
                 "qty": 81831.0746,
-                "lastprice": 1.3601
+                "lastprice": 1.3299
             },
             "13476425053110940554": {
                 "name": "crypto777",
                 "qty": 241532.103,
-                "lastprice": 200
+                "lastprice": 79
             },
             "13502152099823770958": {
                 "name": "SuperNETx2",
                 "qty": 3315.8329,
-                "lastprice": 175
+                "lastprice": 200.001
             },
             "10955830010602647139": {
                 "name": "longzai",
@@ -205,12 +210,12 @@
             "17740527756732147253": {
                 "name": "EDinar",
                 "qty": 13.5209,
-                "lastprice": 2.6
+                "lastprice": 1.5
             },
             "13604572534081373849": {
                 "name": "solarweb",
                 "qty": 1,
-                "lastprice": 11.54
+                "lastprice": 11.301
             },
             "2176003302076381931": {
                 "name": "MyNXT",
@@ -225,34 +230,34 @@
             "6932037131189568014": {
                 "name": "jl777hodl",
                 "qty": 7,
-                "lastprice": 0.80001
+                "lastprice": 0.9
             },
             "2978798152942226372": {
                 "name": "BGCAFFE",
                 "qty": 0.1,
-                "lastprice": 5.5
+                "lastprice": 2.2
             }
         },
         "NXT-H8AL-VEG7-4FL5-G2L4W": {
             "12422608354438203866": {
                 "name": "ARDR",
                 "qty": 45977.2101,
-                "lastprice": 1.3601
+                "lastprice": 1.3299
             },
             "12658817572699179955": {
                 "name": "NXTCS",
                 "qty": 971.8453,
-                "lastprice": 0.0035
+                "lastprice": 0.001
             },
             "13502152099823770958": {
                 "name": "SuperNETx2",
                 "qty": 458.7884,
-                "lastprice": 175
+                "lastprice": 200.001
             },
             "12071612744977229797": {
                 "name": "SuperNET",
                 "qty": 398.627,
-                "lastprice": 151.0001
+                "lastprice": 158
             },
             "8688289798928624137": {
                 "name": "Jay",
@@ -277,21 +282,21 @@
             "13476425053110940554": {
                 "name": "crypto777",
                 "qty": 0.627,
-                "lastprice": 200
+                "lastprice": 79
             },
             "17740527756732147253": {
                 "name": "EDinar",
                 "qty": 0.0511,
-                "lastprice": 2.6
+                "lastprice": 1.5
             },
             "1989622569661755686": {
                 "name": "vpn2nxt",
                 "qty": 20,
-                "lastprice": 0.5
+                "lastprice": 0.2
             }
         }
     },
     "meta": {
-        "updated": "09-05-2017 06:55:09 pm"
+        "updated": "14-06-2017 01:30:10 pm"
     }
 }
